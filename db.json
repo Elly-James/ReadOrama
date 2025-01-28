@@ -1,0 +1,735 @@
+{
+    "kind": "books#volumes",
+    "totalItems": 413,
+    "items": [
+        {
+            "kind": "books#volume",
+            "id": "bpfcDgAAQBAJ",
+            "etag": "Ubq9ycnpX84",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/bpfcDgAAQBAJ",
+            "volumeInfo": {
+                "title": "Web Application Development with MEAN",
+                "authors": [
+                    "Amos Q. Haviv",
+                    "Adrian Mejia",
+                    "Robert Onodi"
+                ],
+                "publisher": "Packt Publishing Ltd",
+                "publishedDate": "2016-10-28",
+                "description": "Unlock the power of the MEAN stack by creating attractive and real-world projects About This Book Learn about the different components that comprise a MEAN application to construct a fully functional MEAN application using the best third-party modules A step-by-step guide to developing the MEAN stack components from scratch to achieve maximum flexibility when building an e-commerce application Build optimum end-to-end web applications using the MEAN stack Who This Book Is For This learning path is for web developers who are experienced in developing applications using JavaScript. This course is for developers who are interested in learning how to build modern and multiple web applications using MongoDB, Express, AngularJS, and Node.js. What You Will Learn Build modern, end-to-end web applications by employing the full-stack web development solution of MEAN Connect your Express application to MongoDB and use a Mongoose model and build a complex application from start to finish in MongoDB Employ AngularJS to build responsive UI components Implement multiple authentication strategies such as OAuth, JsonWebToken, and Sessions Enhance your website's usability with social logins such as Facebook, Twitter, and Google Secure your app by creating SSL certificates and run payment platforms in a live environment Implement a chat application from scratch using Socket.IO Create distributed applications and use the power of server-side rendering in your applications Extend a project with a real-time bidding system using WebSockets In Detail The MEAN stack is a collection of the most popular modern tools for web development. This course will help you to build a custom e-commerce app along with several other applications. You will progress to creating several applications with MEAN. The first module in this course will provide you with the skills you need to successfully create, maintain, and test a MEAN application. Starting with MEAN core frameworks, this course will explain each framework key concepts of MongoDB, Express, AngularJS, and Node.js. We will walk through the different tools and frameworks that will help expedite your daily development cycles. After this, the next module will show you how to create your own e-commerce application using the MEAN stack. It takes you step by step through the parallel process of learning and building to develop a production-ready, high-quality e-commerce site from scratch. It also shows you how to manage user authentication and authorization, check multiple payment platforms, add a product search and navigation feature, deploy a production-ready e-commerce site, and finally add your own high-quality feature to the site. The final step in this course will enable you to build a better foundation for your AngularJS apps. You'll learn how to build complex real-life applications with the MEAN stack and a few more advanced projects. You will become familiar with WebSockets, build real-time web applications, create auto-destructing entities, and see how to work with monetary data in Mongo. You will also find out how to a build real-time e-commerce application. This learning path combines some of the best that Packt has to offer in one complete, curated package. It includes content from the following Packt products: MEAN Web Development by Amos Haviv Building an E-Commerce Application with MEAN by Adrian Mejia MEAN Blueprints by Robert Onodi Style and approach This course will begin with the introduction to MEAN, gradually progressing with building applications in each framework. Each transition is well explained, and each chapter begins with the required background knowledge.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781787126626"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1787126625"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 845,
+                "printType": "BOOK",
+                "categories": [
+                    "Computers"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "0.1.2.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=bpfcDgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=bpfcDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=bpfcDgAAQBAJ&pg=PA684&dq=%24%7Bquery%7D%60&hl=&cd=1&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=bpfcDgAAQBAJ&dq=%24%7Bquery%7D%60&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Web_Application_Development_with_MEAN.html?hl=&id=bpfcDgAAQBAJ"
+            },
+            "saleInfo": {
+                "country": "KE",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "KE",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true
+                },
+                "pdf": {
+                    "isAvailable": true
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=bpfcDgAAQBAJ&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Amos Q. Haviv, Adrian Mejia, Robert Onodi. 4. Query all jobs from the backend: getAll(criteria) { } let query = &#39;&#39;; let str = serializeQuery(criteria); if (str) { query = `?${str}`; } return this._http .get(`/api/jobs<b>${query}`</b>, { headers&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "FT6j3YMDhNYC",
+            "etag": "tuY4Td+Cnys",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/FT6j3YMDhNYC",
+            "volumeInfo": {
+                "title": "Professional LINQ",
+                "authors": [
+                    "Scott Klein"
+                ],
+                "publisher": "John Wiley & Sons",
+                "publishedDate": "2008-01-22",
+                "description": "Professional LINQ introduces experienced programmers and database developers to LINQ database queries in their native VB and C# languages. Some of the topics covered include: LINQ Queries LINQ and the Standard Query Operators Programming with XLinq Querying XML with XLinq Mixing XML and other data models DLinq and Queries LINQ over datasets Interoperating with ADO.NET LINQ and ASP.NET",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780470041819"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0470041811"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 410,
+                "printType": "BOOK",
+                "categories": [
+                    "Computers"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "1.2.2.0.preview.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=FT6j3YMDhNYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=FT6j3YMDhNYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=FT6j3YMDhNYC&pg=PA37&dq=%24%7Bquery%7D%60&hl=&cd=2&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=FT6j3YMDhNYC&dq=%24%7Bquery%7D%60&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Professional_LINQ.html?hl=&id=FT6j3YMDhNYC"
+            },
+            "saleInfo": {
+                "country": "KE",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "KE",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/Professional_LINQ-sample-pdf.acsm?id=FT6j3YMDhNYC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=FT6j3YMDhNYC&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "Scott Klein. It points out the similarities between a LINQ <b>query</b> syntax and how SQL Server processes a <b>query</b>. You have seen many times now the basic syntax of a LINQ <b>query</b>: from c in contact where c.FirstName.StartsWith(&quot;S&quot;) orderby c&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "SDvvndSmG_YC",
+            "etag": "GP3SnAb0LE8",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/SDvvndSmG_YC",
+            "volumeInfo": {
+                "title": "Successful ICT Projects in Access",
+                "authors": [
+                    "P. M. Heathcote",
+                    "Bonie Ngowi"
+                ],
+                "publisher": "Payne Gallway",
+                "publishedDate": "2002",
+                "description": "Reviews ''A real pleasure using the book''. 27th May 2003 Reviewer: Chris Clarke: ''I have purchased many books on Access in an attempt to learn as much as I can about what I consider to be a fantastic piece of software and I have to say that your book Successful ICT Projects in Access (3rd Edition) was one of the easiest and most comprehensive books on the topic that I have come across. It has been a real pleasure using the book and my ability to program has increased beyond my wildest expectations, Thank you. Excellent!'' ''I found it clear, concise, realistically priced and is helping correct my deficient knowledge immensely.'' 20th February 2003 Reviewer: Dr. Geoff Fowler, Technical Director, Oilfield Consultancy: ''I am Technical Director of a small Oilfield Chemistry consultancy and taught myself, rather badly, Access. However all the books I bought and many online resources assume a level of knowledge hence the many mistakes I make in building databases for myself. I was browsing PC World and came across your Successful ICT Projects in Access. I found it clear, concise, realistically priced and is helping correct my deficient knowledge immensely. I will try and get your VBA book as well. Excellent! I think they are wicked!'' ''A first rate text which cannot fail to improve grades'' 3rd May, 2002 Reviewer: Miss Fozia Akram a student from Wakefield College, England: ''I would like to thank you for publishing such great books, I have purchased the A2 ICT and Access books and I think they are wicked. Thank you Payne-Gallway and thank you Pat Heathcote, lets just hope my revision pays off. A first rate text which cannot fail to improve grades''. ''The ''paint by numbers'' approach is exactly what is needed as it quickly gets results.'' 22nd September, 2001 Reviewer: Kev Randle from Sheffield, England: ''This guide to producing an ''A'' level project is going to take some beating. Some of my students have made fantastic progress in just a few hours from a starting point of zero experience with access. The ''paint by numbers'' approach is exactly what is needed as it quickly gets results. Probably feeds the ''instant gratification '' that most of our students are supposed to demand. I don''t care. As a teacher it has certainly made my life a great deal less painful and I can recommend this text to anyone taking, or teaching the AQA ICT or Computing course. It''s not even hard. Life saver!''. ''I wouldn''t have been able to do the project without it.'' 4th November, 2001 Reviewer: A Student from High Wycombe, England: ''This book pretty much lays out what is needed in the project in simple terms so that it can be adapted to your own project. Not only does it give the IT side but also the written work which is in part more important than the actual system. I wouldn''t have been able to do the project without it. Excellent book as an introduction to Access''. ''It is by far and away the most practical publication I have read on the subject'' 1st October, 2001 Reviewer: Sean Scaife from Dublin, Ireland: ''As a newcomer to Access, although over 20 years in the IT industry in various capacities, I found this work to be invaluable in being able to grasp the fundamentals of Access development. It is by far and away the most practical publication I have read on the subject, In fact I would go so far as to say that it is an object lesson to most authors of introductory works in so far that is PRACTICAL in real world sense. I have already passed on my original copy to a former colleague and have this morning recommended it to another colleague who will be purchasing it. I have no problem spending ...on other manuals but this work has helped me to produce working solutions in a very short time. Congratulations, A fan, excellent''. 17th January, 2001 Reviewer: A Reader from Leicester, England: ''This book really helps with the AS IT course when you need to do your coursework. If you are planning on using Access for your coursework, I really recommend it as it comes in very useful indeed''.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "1903112737"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9781903112731"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 228,
+                "printType": "BOOK",
+                "categories": [
+                    "Computers"
+                ],
+                "averageRating": 5,
+                "ratingsCount": 2,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.4.6.0.preview.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=SDvvndSmG_YC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=SDvvndSmG_YC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=SDvvndSmG_YC&pg=PA56&dq=%24%7Bquery%7D%60&hl=&cd=3&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=SDvvndSmG_YC&dq=%24%7Bquery%7D%60&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Successful_ICT_Projects_in_Access.html?hl=&id=SDvvndSmG_YC"
+            },
+            "saleInfo": {
+                "country": "KE",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "KE",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/Successful_ICT_Projects_in_Access-sample-pdf.acsm?id=SDvvndSmG_YC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=SDvvndSmG_YC&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "... <b>query</b> is run to add the CurrentDue and PastDue to calculate the TotalDue . ( We performed this task in the last chapter and saved the <b>query</b> as qryCustomer ... <b>queries</b> to process customer 15 Moving a field payments 15 Summary <b>query</b>."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "UUADAAAAYAAJ",
+            "etag": "E3S8GfODFvQ",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/UUADAAAAYAAJ",
+            "volumeInfo": {
+                "title": "Scottish Notes and Queries",
+                "publishedDate": "1888",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "NYPL:33433069338634"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 718,
+                "printType": "BOOK",
+                "categories": [
+                    "Genealogy"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.13.16.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=UUADAAAAYAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=UUADAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=UUADAAAAYAAJ&pg=PA202&dq=%24%7Bquery%7D%60&hl=&cd=4&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=UUADAAAAYAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=UUADAAAAYAAJ"
+            },
+            "saleInfo": {
+                "country": "KE",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=UUADAAAAYAAJ&rdid=book-UUADAAAAYAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "KE",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com/books/download/Scottish_Notes_and_Queries.epub?id=UUADAAAAYAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "downloadLink": "http://books.google.com/books/download/Scottish_Notes_and_Queries.pdf?id=UUADAAAAYAAJ&hl=&output=pdf&sig=ACfU3U0NV0-WMpsNfG0f1i4QE2z5YROqiQ&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=UUADAAAAYAAJ&hl=&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "... <b>Queries</b> for Somerset and Dorset . Edited by HUGH NORRIS , South Petherton , Somerset , Local Secretary for Somerset to the Society of Antiquaries of London , and CHARLES HERBERT MAYO , M.A. , Vicar of Long Burton , near Sherborne&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "EfEOAAAAYAAJ",
+            "etag": "uWegByc/hog",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/EfEOAAAAYAAJ",
+            "volumeInfo": {
+                "title": "The Magazine of History, with Notes and Queries",
+                "publishedDate": "1917",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "HARVARD:32044090111931"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 306,
+                "printType": "BOOK",
+                "categories": [
+                    "History"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.8.11.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=EfEOAAAAYAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=EfEOAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=EfEOAAAAYAAJ&pg=RA1-PA34&dq=%24%7Bquery%7D%60&hl=&cd=5&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=EfEOAAAAYAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=EfEOAAAAYAAJ"
+            },
+            "saleInfo": {
+                "country": "KE",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=EfEOAAAAYAAJ&rdid=book-EfEOAAAAYAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "KE",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com/books/download/The_Magazine_of_History_with_Notes_and_Q.epub?id=EfEOAAAAYAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=EfEOAAAAYAAJ&hl=&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "... statement has been made that amongst these people one can find nearly all the folk - songs ever sung in the British ... <b>query</b> as to a certain word : &quot; Shucks ! Hit jus &#39; comes that way . &quot; These people are the real simon - pure&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "CY98qQNHOl4C",
+            "etag": "VdhwaWe3XM4",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/CY98qQNHOl4C",
+            "volumeInfo": {
+                "title": "Understanding Directory Services",
+                "authors": [
+                    "Beth Sheresh",
+                    "Doug Sheresh"
+                ],
+                "publisher": "Sams Publishing",
+                "publishedDate": "2002",
+                "description": "Book Description Understanding Directory Servicesclarifies the complex topic of directory services, starting with basic theory and archetypes, and then working its way up to the current directory service implementations. It describes the basic idea behind directory services, explaining the underlying conceptual models, design characteristics, and methods of managing distributed information. The book begins with an overview of directory services and their core characteristics, highlighting critical aspects of directory information, distribution, and storage. The evolving nature of the information the directory contains, and the factors involved in organizing and managing it are discussed in detail, and then methods of information distribution and storage are examined at length. After exploring the basics of directory service, the book progresses to in-depth chapters on each of the critical technologies being used to implement directory services: * The X.500standards are explained to help you understand the foundations of directory services and provide a basis for comparison of the other directory technologies. *Lightweight Directory Access Protocol(LDAP) and its emerging role as a directory access standard is described in detail, with thorough explanations of models, naming, and operations. *The Domain Name System(DNS) is examined from a directory service perspective, noting parallels in structures and operations. This knowledge of directory services is then used to describe the design of X.500 and LDAP based directory service products, as well as NDS eDirectory and Active Directory, highlighting the architectural and operational implications of vendor's design decisions. This book: * Explores X.500-based directory products (eTrust, DirX, Nexor), and highlights implementation approaches and capabilities. * Describes the LDAP-based directory products (OpenLDAP, SecureWay, iPlanet), identifying similarities and differences between them. * ExplainsNDS eDirectorydescribing the underlying directory architecture and its foundations in X.500, and its evolution from an NOS-based directory to a general purpose directory service. * Examines howActive Directoryintegrates NT 4, LDAP, and DNS technologies into a directory service that leverages established Windows networks. * Explores the information management issues that meta-directories (Siemens DirXmetahub, iPlanet meta-directory, Microsoft Meta-directory Services, Novell DirXML) are designed to address, and characteristics of different types of meta-directory solutions (as well as Radiant Logic'sRadiant Onevirtual directory server). * Identifies the design of XML-based directory markup languages that map directory schema, objects, and operations providing directory interoperability. The final chapter is focused on helping you evaluate directory services in the context of your business and network environment. Information, business, and network control factors are identified, and key factors in directory service assessment are explained. Understanding Directory Servicesis an excellent reference for directory service technologies that includes extensive references and aglossarycontaining 385 directory service terms. By explaining key directory technologies, and the integration of those technologies, this book provides the information you need to understand the design and operations involved in all directory services. From the Back Cover Understanding Directory Servicesis the most in-depth resource available on directory services theory, architecture, and design. It provides the conceptual framework and critical technical information for IT professionals who are using directory services in their networks or e-business solutions. The 1st edition of this book covered the underlying directory service technologies (X.500, LDAP, DNS), and integrated the information from a networking perspective with a special focus on eDirectory and Active Directory. The 2nd Edition extends this coverage to the LDAP-based directories (such as iPlanet and SecureWay) and the X.500-based enterprise directory services (including eTrust, DirX, and Nexor), as well as the emerging meta-directory technologies and products which are crucial to the integration of the multiple directories in an enterprise networking environment. By explaining the origins and technologies of directory services, and clarifying the integration of key directory technologies into network and e-commerce platforms,Understanding Directory Servicesgives you the information you need to understand the underlying design and operations involved in all directory services. Reviews of the first edition Warren E. Wyrostek -- MCP Magazine ...superb, comprehensive...highly recommend it to all network professionals...a must read for anyone wrestling with deploying a directory service... Douglas Ludens -- About.com ...clearly organized and well written...a great book, I highly recommend it...essential to doing well with Windows 2000...",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0672323052"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780672323058"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 646,
+                "printType": "BOOK",
+                "categories": [
+                    "Computers"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "1.5.4.0.preview.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=CY98qQNHOl4C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=CY98qQNHOl4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=CY98qQNHOl4C&pg=PA233&dq=%24%7Bquery%7D%60&hl=&cd=6&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=CY98qQNHOl4C&dq=%24%7Bquery%7D%60&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Understanding_Directory_Services.html?hl=&id=CY98qQNHOl4C"
+            },
+            "saleInfo": {
+                "country": "KE",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "KE",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=CY98qQNHOl4C&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "... <b>query</b> and a recursive name <b>query</b> is : • When a client passes a recursive <b>query</b> to the name server , it requests the name server to complete the name resolution process on its behalf ( by querying other name servers ) . • With an iterative&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "QiDZYOjOJiUC",
+            "etag": "G3AwKB0x5LU",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/QiDZYOjOJiUC",
+            "volumeInfo": {
+                "title": "Proceedings 2004 VLDB Conference",
+                "subtitle": "The 30th International Conference on Very Large Databases (VLDB)",
+                "authors": [
+                    "VLDB"
+                ],
+                "publisher": "Morgan Kaufmann",
+                "publishedDate": "2004-09-17",
+                "description": "Proceedings of the 30th Annual International Conference on Very Large Data Bases held in Toronto, Canada on August 31 - September 3 2004. Organized by the VLDB Endowment, VLDB is the premier international conference on database technology.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780120884698"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0120884690"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 1415,
+                "printType": "BOOK",
+                "categories": [
+                    "Computers"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "3.3.2.0.preview.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=QiDZYOjOJiUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=QiDZYOjOJiUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=QiDZYOjOJiUC&pg=PA1334&dq=%24%7Bquery%7D%60&hl=&cd=7&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=QiDZYOjOJiUC&dq=%24%7Bquery%7D%60&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Proceedings_2004_VLDB_Conference.html?hl=&id=QiDZYOjOJiUC"
+            },
+            "saleInfo": {
+                "country": "KE",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "KE",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/Proceedings_2004_VLDB_Conference-sample-pdf.acsm?id=QiDZYOjOJiUC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=QiDZYOjOJiUC&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "... <b>query</b> optimization are compounded by the fact that a <b>query</b> submitted to the database system is typically optimized afresh , providing no opportunity to amortize these overheads over prior opti- mizations . While current commercial&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "IjiYukobbNgC",
+            "etag": "XByA8FxL7U0",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/IjiYukobbNgC",
+            "volumeInfo": {
+                "title": "Visual Basic 2008 Programming Black Book, Platinum Edition (With Cd)",
+                "authors": [
+                    "Kogent Solutions Inc."
+                ],
+                "publisher": "Dreamtech Press",
+                "publishedDate": "2009-03",
+                "description": "Visual Basic 2008 Black Book Is The Most Comprehensive Book That You Will Find On Visual Baisc.Net. It Contains Useful Material On All The Concepts Of Visual Basic 2008, And At The Same Time, Teaches You How To Implement These Concepts Programmatically By Providing Appropriate Examples Along-With Detailed Explanations. This Edition Of The Book Particularly Deals With Some New And Advanced Topics: Such As Wpf, Wcf, Wf, Asp.Net, Ajax, Silverlight, And Linq. This Unique Book On Visual Basic 2008 Has Extensive Coverage Of The Language; No Doubt, Every Aspect Of The Book Is Worth Its Price. Part I - .Net Framework 3.5 And Visual Studio 2008 Chapter 1: Getting Started With .Net Framework 3.5 Chapter 2: Introducing Visual Studio 2008 Part Ii - Visual Basic Programming Language And Oops Chapter 3: Introducing Visual Basic 2008 Chapter 4: Flow Control And Exception Handling In Visual Basic 2008 Chapter 5: Object-Oriented Programming In Visual Basic 2008 Part Iii - Windows Forms And Wpf Chapter 6: Windows Forms In Visual Basic 2008 Chapter 7: Windows Forms Controls - I Chapter 8: Windows Forms Controls- Ii Chapter 9: Windows Forms Controls - Iii Chapter 10: Windows Forms Controls - Iv Chapter 11: Windows Forms Controls - V Chapter 12: Introducing Windows Presentation Foundation Chapter 13: Working With Wpf 3.5 Controls, Resources, Styles, Templates, And Commands Chapter 14: Using Graphics And Multimedia In Windows Forms And Wpf Part Iv - Asp.Net 3.5 Chapter 15: Introducing Asp.Net 3.5 And Web Forms Chapter 16: Standard Web Server Controls Chapter 17: Navigation Controls In Asp.Net 3.5 Chapter 18: Login And Web Parts Controls In Asp.Net 3.5 Chapter 19: Enhancing Web Applications With Silverlight Part V - Services And Deployment Chapter 20: Asp.Net 3.5 Web Services Chapter 21: Introducing Windows Communication Foundation Chapter 22: Deploying Windows And Web Applications Part Vi - Ado.Net And Linq Chapter 23: Data Access With Ado.Net Chapter 24: Data Binding In Windows Forms And Wpf Applications Chapter 25: Data Binding In Asp.Net Applications Chapter 26: Working With Linq Part Vii - Advanced Topics Chapter 27: Working With Windows Workflow Foundation Chapter 28: Threading In Visual Basic 2008 Chapter 29: Collections And Generics Chapter 30: Working With Xml And .Net Chapter 31: The My Object Chapter 32: .Net Assemblies Chapter 33: Developing Windows Mobile Applications Chapter 34: Security And Cryptography In .Net Chapter 35: .Net Remoting In Visual Basic 2008 Chapter 36: Human Resources Management System",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "8177228331"
+                    },
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9788177228335"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 1796,
+                "printType": "BOOK",
+                "categories": [
+                    "BASIC (Computer program language)"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "1.6.6.0.preview.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=IjiYukobbNgC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=IjiYukobbNgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=IjiYukobbNgC&pg=PA1290&dq=%24%7Bquery%7D%60&hl=&cd=8&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=IjiYukobbNgC&dq=%24%7Bquery%7D%60&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/Visual_Basic_2008_Programming_Black_Book.html?hl=&id=IjiYukobbNgC"
+            },
+            "saleInfo": {
+                "country": "KE",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "KE",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false
+                },
+                "pdf": {
+                    "isAvailable": true,
+                    "acsTokenLink": "http://books.google.com/books/download/Visual_Basic_2008_Programming_Black_Book-sample-pdf.acsm?id=IjiYukobbNgC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=IjiYukobbNgC&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "... <b>query</b> expressions . These <b>query</b> expressions are based on numerous <b>query</b> operators that are designed to work similar to that adopted in SQL . LINQ defines the set of <b>query</b> operators as the operators used to <b>query</b> , project , and filter&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "-LtAAQAAMAAJ",
+            "etag": "UdkSrLRS8t0",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/-LtAAQAAMAAJ",
+            "volumeInfo": {
+                "title": "The China Review, Or, Notes and Queries on the Far East",
+                "publishedDate": "1874",
+                "industryIdentifiers": [
+                    {
+                        "type": "OTHER",
+                        "identifier": "UCD:31175033574594"
+                    }
+                ],
+                "readingModes": {
+                    "text": false,
+                    "image": true
+                },
+                "pageCount": 462,
+                "printType": "BOOK",
+                "categories": [
+                    "China"
+                ],
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": false,
+                "contentVersion": "0.9.10.0.full.1",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=-LtAAQAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=-LtAAQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=-LtAAQAAMAAJ&pg=RA1-PA145&dq=%24%7Bquery%7D%60&hl=&cd=9&source=gbs_api",
+                "infoLink": "https://play.google.com/store/books/details?id=-LtAAQAAMAAJ&source=gbs_api",
+                "canonicalVolumeLink": "https://play.google.com/store/books/details?id=-LtAAQAAMAAJ"
+            },
+            "saleInfo": {
+                "country": "KE",
+                "saleability": "FREE",
+                "isEbook": true,
+                "buyLink": "https://play.google.com/store/books/details?id=-LtAAQAAMAAJ&rdid=book--LtAAQAAMAAJ&rdot=1&source=gbs_api"
+            },
+            "accessInfo": {
+                "country": "KE",
+                "viewability": "ALL_PAGES",
+                "embeddable": true,
+                "publicDomain": true,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": false,
+                    "downloadLink": "http://books.google.com/books/download/The_China_Review_Or_Notes_and_Queries_on.epub?id=-LtAAQAAMAAJ&hl=&output=epub&source=gbs_api"
+                },
+                "pdf": {
+                    "isAvailable": false
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=-LtAAQAAMAAJ&hl=&source=gbs_api",
+                "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "... <b>QUERIES</b> . H. F. H. THE CASPIAN SEA . - Will any reader of these Notes and <b>Queries</b> give me the Chinese name of the Caspian Sea ? SHAH . THE LU - YA - SHUI .-- In the &quot; Red Book &quot; a certain amount of provincial revenue is put down as&nbsp;..."
+            }
+        },
+        {
+            "kind": "books#volume",
+            "id": "BL0NNoFPuAQC",
+            "etag": "JMfBlxpLKIY",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/BL0NNoFPuAQC",
+            "volumeInfo": {
+                "title": "High Performance MySQL",
+                "subtitle": "Optimization, Backups, Replication, and More",
+                "authors": [
+                    "Baron Schwartz",
+                    "Peter Zaitsev",
+                    "Vadim Tkachenko",
+                    "Jeremy D. Zawodny",
+                    "Arjen Lentz",
+                    "Derek J. Balling"
+                ],
+                "publisher": "\"O'Reilly Media, Inc.\"",
+                "publishedDate": "2008-06-18",
+                "description": "High Performance MySQL is the definitive guide to building fast, reliable systems with MySQL. Written by noted experts with years of real-world experience building very large systems, this book covers every aspect of MySQL performance in detail, and focuses on robustness, security, and data integrity. High Performance MySQL teaches you advanced techniques in depth so you can bring out MySQL's full power. Learn how to design schemas, indexes, queries and advanced MySQL features for maximum performance, and get detailed guidance for tuning your MySQL server, operating system, and hardware to their fullest potential. You'll also learn practical, safe, high-performance ways to scale your applications with replication, load balancing, high availability, and failover. This second edition is completely revised and greatly expanded, with deeper coverage in all areas. Major additions include: Emphasis throughout on both performance and reliability Thorough coverage of storage engines, including in-depth tuning and optimizations for the InnoDB storage engine Effects of new features in MySQL 5.0 and 5.1, including stored procedures, partitioned databases, triggers, and views A detailed discussion on how to build very large, highly scalable systems with MySQL New options for backups and replication Optimization of advanced querying features, such as full-text searches Four new appendices The book also includes chapters on benchmarking, profiling, backups, security, and tools and techniques to help you measure, monitor, and manage your MySQL installations.",
+                "industryIdentifiers": [
+                    {
+                        "type": "ISBN_13",
+                        "identifier": "9780596554750"
+                    },
+                    {
+                        "type": "ISBN_10",
+                        "identifier": "0596554753"
+                    }
+                ],
+                "readingModes": {
+                    "text": true,
+                    "image": true
+                },
+                "pageCount": 712,
+                "printType": "BOOK",
+                "categories": [
+                    "Computers"
+                ],
+                "averageRating": 4.5,
+                "ratingsCount": 14,
+                "maturityRating": "NOT_MATURE",
+                "allowAnonLogging": true,
+                "contentVersion": "0.6.5.0.preview.3",
+                "panelizationSummary": {
+                    "containsEpubBubbles": false,
+                    "containsImageBubbles": false
+                },
+                "imageLinks": {
+                    "smallThumbnail": "http://books.google.com/books/content?id=BL0NNoFPuAQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+                    "thumbnail": "http://books.google.com/books/content?id=BL0NNoFPuAQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+                },
+                "language": "en",
+                "previewLink": "http://books.google.com/books?id=BL0NNoFPuAQC&pg=PA206&dq=%24%7Bquery%7D%60&hl=&cd=10&source=gbs_api",
+                "infoLink": "http://books.google.com/books?id=BL0NNoFPuAQC&dq=%24%7Bquery%7D%60&hl=&source=gbs_api",
+                "canonicalVolumeLink": "https://books.google.com/books/about/High_Performance_MySQL.html?hl=&id=BL0NNoFPuAQC"
+            },
+            "saleInfo": {
+                "country": "KE",
+                "saleability": "NOT_FOR_SALE",
+                "isEbook": false
+            },
+            "accessInfo": {
+                "country": "KE",
+                "viewability": "PARTIAL",
+                "embeddable": true,
+                "publicDomain": false,
+                "textToSpeechPermission": "ALLOWED",
+                "epub": {
+                    "isAvailable": true
+                },
+                "pdf": {
+                    "isAvailable": true
+                },
+                "webReaderLink": "http://play.google.com/books/reader?id=BL0NNoFPuAQC&hl=&source=gbs_api",
+                "accessViewStatus": "SAMPLE",
+                "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+                "textSnippet": "... <b>query</b> cache works at the level of a complete SELECT statement when the server first receives it from the client connection, identical <b>queries</b> made inside a sub- <b>query</b> or view cannot use the <b>query</b> cache, and neither can <b>queries</b> in stored&nbsp;..."
+            }
+        }
+    ]
+}
