@@ -10,10 +10,12 @@
             ],
             "publisher": "Packt Publishing Ltd",
             "publishedDate": "2016-10-28",
-            "description": "Unlock the power of the MEAN stack by creating attractive and real-world projects About This Book Learn about the different components that comprise a MEAN application to construct a fully functional MEAN application using the best third-party modules A step-by-step guide to developing the MEAN stack components from scratch to achieve maximum flexibility when building an e-commerce application Build optimum end-to-end web applications using the MEAN stack Who This Book Is For This learning path is for web developers who are experienced in developing applications using JavaScript. This course is for developers who are interested in learning how to build modern and multiple web applications using MongoDB, Express, AngularJS, and Node.js. What You Will Learn Build modern, end-to-end web applications by employing the full-stack web development solution of MEAN Connect your Express application to MongoDB and use a Mongoose model and build a complex application from start to finish in MongoDB Employ AngularJS to build responsive UI components Implement multiple authentication strategies such as OAuth, JsonWebToken, and Sessions Enhance your website's usability with social logins such as Facebook, Twitter, and Google Secure your app by creating SSL certificates and run payment platforms in a live environment Implement a chat application from scratch using Socket.IO Create distributed applications and use the power of server-side rendering in your applications Extend a project with a real-time bidding system using WebSockets In Detail The MEAN stack is a collection of the most popular modern tools for web development. This course will help you to build a custom e-commerce app along with several other applications. You will progress to creating several applications with MEAN. The first module in this course will provide you with the skills you need to successfully create, maintain, and test a MEAN application. Starting with MEAN core frameworks, this course will explain each framework key concepts of MongoDB, Express, AngularJS, and Node.js. We will walk through the different tools and frameworks that will help expedite your daily development cycles. After this, the next module will show you how to create your own e-commerce application using the MEAN stack. It takes you step by step through the parallel process of learning and building to develop a production-ready, high-quality e-commerce site from scratch. It also shows you how to manage user authentication and authorization, check multiple payment platforms, add a product search and navigation feature, deploy a production-ready e-commerce site, and finally add your own high-quality feature to the site. The final step in this course will enable you to build a better foundation for your AngularJS apps. You'll learn how to build complex real-life applications with the MEAN stack and a few more advanced projects. You will become familiar with WebSockets, build real-time web applications, create auto-destructing entities, and see how to work with monetary data in Mongo. You will also find out how to a build real-time e-commerce application. This learning path combines some of the best that Packt has to offer in one complete, curated package. It includes content from the following Packt products: MEAN Web Development by Amos Haviv Building an E-Commerce Application with MEAN by Adrian Mejia MEAN Blueprints by Robert Onodi Style and approach This course will begin with the introduction to MEAN, gradually progressing with building applications in each framework. Each transition is well explained, and each chapter begins with the required background knowledge.",
-            "category": "Computers",
-            "pageCount": 845,
-            "imageLink": "http://books.google.com/books/content?id=bpfcDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            "description": "Unlock the power of the MEAN stack by creating attractive and real-world projects About This Book Learn about the different components that comprise a MEAN application to construct a fully functional MEAN application using the best third-party modules A step-by-step guide to developing the MEAN stack components from scratch to achieve maximum flexibility when building an e-commerce application Build optimum end-to-end web applications using the MEAN stack",
+            "categories": [
+                "Computers"
+            ],
+            "imageLink": "http://books.google.com/books/content?id=bpfcDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+            "price": "Ksh. 4800"
         },
         {
             "id": "FT6j3YMDhNYC",
@@ -24,45 +26,29 @@
             "publisher": "John Wiley & Sons",
             "publishedDate": "2008-01-22",
             "description": "Professional LINQ introduces experienced programmers and database developers to LINQ database queries in their native VB and C# languages. Some of the topics covered include: LINQ Queries LINQ and the Standard Query Operators Programming with XLinq Querying XML with XLinq Mixing XML and other data models DLinq and Queries LINQ over datasets Interoperating with ADO.NET LINQ and ASP.NET",
-            "category": "Computers",
-            "pageCount": 410,
-            "imageLink": "http://books.google.com/books/content?id=FT6j3YMDhNYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        {
-            "id": "SDvvndSmG_YC",
-            "title": "Successful ICT Projects in Access",
-            "authors": [
-                "P. M. Heathcote",
-                "Bonie Ngowi"
+            "categories": [
+                "Computers"
             ],
-            "publisher": "Payne Gallway",
-            "publishedDate": "2002",
-            "description": "Reviews ''A real pleasure using the book''. 27th May 2003 Reviewer: Chris Clarke: ''I have purchased many books on Access in an attempt to learn as much as I can about what I consider to be a fantastic piece of software and I have to say that your book Successful ICT Projects in Access (3rd Edition) was one of the easiest and most comprehensive books on the topic that I have come across. It has been a real pleasure using the book and my ability to program has increased beyond my wildest expectations, Thank you. Excellent!'' ''I found it clear, concise, realistically priced and is helping correct my deficient knowledge immensely.'' 20th February 2003 Reviewer: Dr. Geoff Fowler, Technical Director, Oilfield Consultancy: ''I am Technical Director of a small Oilfield Chemistry consultancy and taught myself, rather badly, Access. However all the books I bought and many online resources assume a level of knowledge hence the many mistakes I make in building databases for myself. I was browsing PC World and came across your Successful ICT Projects in Access. I found it clear, concise, realistically priced and is helping correct my deficient knowledge immensely. I will try and get your VBA book as well. Excellent! I think they are wicked!'' ''A first rate text which cannot fail to improve grades'' 3rd May, 2002 Reviewer: Miss Fozia Akram a student from Wakefield College, England: ''I would like to thank you for publishing such great books, I have purchased the A2 ICT and Access books and I think they are wicked. Thank you Payne-Gallway and thank you Pat Heathcote, lets just hope my revision pays off. A first rate text which cannot fail to improve grades''. ''The ''paint by numbers'' approach is exactly what is needed as it quickly gets results.'' 22nd September, 2001 Reviewer: Kev Randle from Sheffield, England: ''This guide to producing an ''A'' level project is going to take some beating. Some of my students have made fantastic progress in just a few hours from a starting point of zero experience with access. The ''paint by numbers'' approach is exactly what is needed as it quickly gets results. Probably feeds the ''instant gratification '' that most of our students are supposed to demand. I don''t care. As a teacher it has certainly made my life a great deal less painful and I can recommend this text to anyone taking, or teaching the AQA ICT or Computing course. It''s not even hard. Life saver!''. ''I wouldn''t have been able to do the project without it.'' 4th November, 2001 Reviewer: A Student from High Wycombe, England: ''This book pretty much lays out what is needed in the project in simple terms so that it can be adapted to your own project. Not only does it give the IT side but also the written work which is in part more important than the actual system. I wouldn''t have been able to do the project without it. Excellent book as an introduction to Access''. ''It is by far and away the most practical publication I have read on the subject'' 1st October, 2001 Reviewer: Sean Scaife from Dublin, Ireland: ''As a newcomer to Access, although over 20 years in the IT industry in various capacities, I found this work to be invaluable in being able to grasp the fundamentals of Access development. It is by far and away the most practical publication I have read on the subject, In fact I would go so far as to say that it is an object lesson to most authors of introductory works in so far that is PRACTICAL in real world sense. I have already passed on my original copy to a former colleague and have this morning recommended it to another colleague who will be purchasing it. I have no problem spending ...on other manuals but this work has helped me to produce working solutions in a very short time. Congratulations, A fan, excellent''. 17th January, 2001 Reviewer: A Reader from Leicester, England: ''This book really helps with the AS IT course when you need to do your coursework. If you are planning on using Access for your coursework, I really recommend it as it comes in very useful indeed''.",
-            "category": "Computers",
-            "pageCount": 228,
-            "imageLink": "http://books.google.com/books/content?id=SDvvndSmG_YC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            "imageLink": "http://books.google.com/books/content?id=FT6j3YMDhNYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+            "price": "Ksh. 3200"
         },
-        {
-            "id": "UUADAAAAYAAJ",
-            "title": "Scottish Notes and Queries",
-            "authors": [],
-            "publisher": null,
-            "publishedDate": "1888",
-            "description": null,
-            "category": "Genealogy",
-            "pageCount": 718,
-            "imageLink": "http://books.google.com/books/content?id=UUADAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
+
+
+
         {
             "id": "EfEOAAAAYAAJ",
             "title": "The Magazine of History, with Notes and Queries",
-            "authors": [],
-            "publisher": null,
+            "authors":[
+                "Anon Sohala"
+            ],
+            "publisher": "Excel Publishing",
             "publishedDate": "1917",
-            "description": null,
-            "category": "History",
-            "pageCount": 306,
-            "imageLink": "http://books.google.com/books/content?id=EfEOAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            "description": "This work has been selected by scholars as being culturally important, and is part of the knowledge base of civilization as we know it. This work was reproduced from the original artifact, and remains as true to the original work as possible. Therefore, you will see the original copyright references, library stamps (as most of these works have been housed in our most important libraries around the world), and other notations in the work.",
+            "categories": [
+                "History"
+                ],
+            "imageLink": "http://books.google.com/books/content?id=EfEOAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+            "price": "KSh. 3000"
         },
         {
             "id": "CY98qQNHOl4C",
@@ -70,68 +56,114 @@
             "authors": [
                 "Beth Sheresh",
                 "Doug Sheresh"
-            ],
+              ],
             "publisher": "Sams Publishing",
             "publishedDate": "2002",
             "description": "Book Description Understanding Directory Servicesclarifies the complex topic of directory services, starting with basic theory and archetypes, and then working its way up to the current directory service implementations. It describes the basic idea behind directory services, explaining the underlying conceptual models, design characteristics, and methods of managing distributed information. The book begins with an overview of directory services and their core characteristics, highlighting critical aspects of directory information, distribution, and storage. The evolving nature of the information the directory contains, and the factors involved in organizing and managing it are discussed in detail, and then methods of information distribution and storage are examined at length. After exploring the basics of directory service, the book progresses to in-depth chapters on each of the critical technologies being used to implement directory services: * The X.500standards are explained to help you understand the foundations of directory services and provide a basis for comparison of the other directory technologies. *Lightweight Directory Access Protocol(LDAP) and its emerging role as a directory access standard is described in detail, with thorough explanations of models, naming, and operations. *The Domain Name System(DNS) is examined from a directory service perspective, noting parallels in structures and operations. This knowledge of directory services is then used to describe the design of X.500 and LDAP based directory service products, as well as NDS eDirectory and Active Directory, highlighting the architectural and operational implications of vendor's design decisions. This book: * Explores X.500-based directory products (eTrust, DirX, Nexor), and highlights implementation approaches and capabilities. * Describes the LDAP-based directory products (OpenLDAP, SecureWay, iPlanet), identifying similarities and differences between them. * ExplainsNDS eDirectorydescribing the underlying directory architecture and its foundations in X.500, and its evolution from an NOS-based directory to a general purpose directory service. * Examines howActive Directoryintegrates NT 4, LDAP, and DNS technologies into a directory service that leverages established Windows networks. * Explores the information management issues that meta-directories (Siemens DirXmetahub, iPlanet meta-directory, Microsoft Meta-directory Services, Novell DirXML) are designed to address, and characteristics of different types of meta-directory solutions (as well as Radiant Logic'sRadiant Onevirtual directory server). * Identifies the design of XML-based directory markup languages that map directory schema, objects, and operations providing directory interoperability. The final chapter is focused on helping you evaluate directory services in the context of your business and network environment. Information, business, and network control factors are identified, and key factors in directory service assessment are explained. Understanding Directory Servicesis an excellent reference for directory service technologies that includes extensive references and aglossarycontaining 385 directory service terms. By explaining key directory technologies, and the integration of those technologies, this book provides the information you need to understand the design and operations involved in all directory services. From the Back Cover Understanding Directory Servicesis the most in-depth resource available on directory services theory, architecture, and design. It provides the conceptual framework and critical technical information for IT professionals who are using directory services in their networks or e-business solutions. The 1st edition of this book covered the underlying directory service technologies (X.500, LDAP, DNS), and integrated the information from a networking perspective with a special focus on eDirectory and Active Directory. The 2nd Edition extends this coverage to the LDAP-based directories (such as iPlanet and SecureWay) and the X.500-based enterprise directory services (including eTrust, DirX, and Nexor), as well as the emerging meta-directory technologies and products which are crucial to the integration of the multiple directories in an enterprise networking environment. By explaining the origins and technologies of directory services, and clarifying the integration of key directory technologies into network and e-commerce platforms,Understanding Directory Servicesgives you the information you need to understand the underlying design and operations involved in all directory services. Reviews of the first edition Warren E. Wyrostek -- MCP Magazine ...superb, comprehensive...highly recommend it to all network professionals...a must read for anyone wrestling with deploying a directory service... Douglas Ludens -- About.com ...clearly organized and well written...a great book, I highly recommend it...essential to doing well with Windows 2000...",
-            "category": "Computers",
-            "pageCount": 646,
-            "imageLink": "http://books.google.com/books/content?id=CY98qQNHOl4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            "categories": [
+                    "Computers"
+                ],
+            "imageLinks": "http://books.google.com/books/content?id=CY98qQNHOl4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+            "price": "KSh. 2500"
+        },
+
+        {
+            "Id": "EfEOAAAAYAAJ",
+            "Title": "The Magazine of History, with Notes and Queries",
+            "Authors": ["Benjamin Franklin", "Daniel Leeds","George Hicks"],
+            "Publisher": "Historical Publications Inc.",
+            "PublishedDate": "1917",
+            "Description": "A historical magazine offering detailed insights into past events, enriched with notes and thought-provoking queries for history enthusiasts.",
+            "Categories": ["History"],
+            "ImageLinks": "http://books.google.com/books/content?id=EfEOAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+            
+            "Price": "Ksh. 1200"
         },
         {
-            "id": "QiDZYOjOJiUC",
-            "title": "Proceedings 2004 VLDB Conference",
+            "Id": "CY98qQNHOl4C",
+            "Title": "Understanding Directory Services",
+            "Authors": ["Beth Sheresh", "Doug Sheresh"],
+            "Publisher": "Sams Publishing",
+            "PublishedDate": "2002",
+            "Description": "This comprehensive guide demystifies directory services, exploring foundational concepts, key technologies, and practical implementations to manage distributed information systems effectively.",
+            "Categories": ["Computers"],
+            "ImageLinks": "http://books.google.com/books/content?id=CY98qQNHOl4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            ,
+            "Price": "Ksh. 2300"
+        },
+
+        {
+            "id": "SDvvndSmG_YC",
+            "title": "Successful ICT Projects in Access",
             "authors": [
-                "VLDB"
+            "P. M. Heathcote",
+            "Bonie Ngowi"
             ],
-            "publisher": "Morgan Kaufmann",
-            "publishedDate": "2004-09-17",
-            "description": "Proceedings of the 30th Annual International Conference on Very Large Data Bases held in Toronto, Canada on August 31 - September 3 2004. Organized by the VLDB Endowment, VLDB is the premier international conference on database technology.",
-            "category": "Computers",
-            "pageCount": 1415,
-            "imageLink": "http://books.google.com/books/content?id=QiDZYOjOJiUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        {
-            "id": "IjiYukobbNgC",
-            "title": "Visual Basic 2008 Programming Black Book, Platinum Edition (With Cd)",
-            "authors": [
-                "Kogent Solutions Inc."
+            "publisher": "Payne Gallway",
+            "publishedDate": "2002",
+            "description": "This book offers practical advice and strategies for successful implementation of Internet .Computing Technology (ICT) projects in schools, businesses, and government agencies. It covers various aspects of .ICT, including project planning, budgeting, staff training, and monitoring, as well as strategies for collaboration and communication among team members.",
+
+            "categories": [
+            "Computers"
             ],
-            "publisher": "Dreamtech Press",
-            "publishedDate": "2009-03",
-            "description": "Visual Basic 2008 Black Book Is The Most Comprehensive Book That You Will Find On Visual Baisc.Net. It Contains Useful Material On All The Concepts Of Visual Basic 2008, And At The Same Time, Teaches You How To Implement These Concepts Programmatically By Providing Appropriate Examples Along-With Detailed Explanations. This Edition Of The Book Particularly Deals With Some New And Advanced Topics: Such As Wpf, Wcf, Wf, Asp.Net, Ajax, Silverlight, And Linq. This Unique Book On Visual Basic 2008 Has Extensive Coverage Of The Language; No Doubt, Every Aspect Of The Book Is Worth Its Price. Part I - .Net Framework 3.5 And Visual Studio 2008 Chapter 1: Getting Started With .Net Framework 3.5 Chapter 2: Introducing Visual Studio 2008 Part Ii - Visual Basic Programming Language And Oops Chapter 3: Introducing Visual Basic 2008 Chapter 4: Flow Control And Exception Handling In Visual Basic 2008 Chapter 5: Object-Oriented Programming In Visual Basic 2008 Part Iii - Windows Forms And Wpf Chapter 6: Windows Forms In Visual Basic 2008 Chapter 7: Windows Forms Controls - I Chapter 8: Windows Forms Controls- Ii Chapter 9: Windows Forms Controls - Iii Chapter 10: Windows Forms Controls - Iv Chapter 11: Windows Forms Controls - V Chapter 12: Introducing Windows Presentation Foundation Chapter 13: Working With Wpf 3.5 Controls, Resources, Styles, Templates, And Commands Chapter 14: Using Graphics And Multimedia In Windows Forms And Wpf Part Iv - Asp.Net 3.5 Chapter 15: Introducing Asp.Net 3.5 And Web Forms Chapter 16: Standard Web Server Controls Chapter 17: Navigation Controls In Asp.Net 3.5 Chapter 18: Login And Web Parts Controls In Asp.Net 3.5 Chapter 19: Enhancing Web Applications With Silverlight Part V - Services And Deployment Chapter 20: Asp.Net 3.5 Web Services Chapter 21: Introducing Windows Communication Foundation Chapter 22: Deploying Windows And Web Applications Part Vi - Ado.Net And Linq Chapter 23: Data Access With Ado.Net Chapter 24: Data Binding In Windows Forms And Wpf Applications Chapter 25: Data Binding In Asp.Net Applications Chapter 26: Working With Linq Part Vii - Advanced Topics Chapter 27: Working With Windows Workflow Foundation Chapter 28: Threading In Visual Basic 2008 Chapter 29: Collections And Generics Chapter 30: Working With Xml And .Net Chapter 31: The My Object Chapter 32: .Net Assemblies Chapter 33: Developing Windows Mobile Applications Chapter 34: Security And Cryptography In .Net Chapter 35: .Net Remoting In Visual Basic 2008 Chapter 36: Human Resources Management System",
-            "category": "BASIC (Computer program language)",
-            "pageCount": 1796,
-            "imageLink": "http://books.google.com/books/content?id=IjiYukobbNgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        {
-            "id": "-LtAAQAAMAAJ",
-            "title": "The China Review, Or, Notes and Queries on the Far East",
-            "authors": [],
-            "publisher": null,
-            "publishedDate": "1874",
-            "description": null,
-            "category": "China",
-            "pageCount": 462,
-            "imageLink": "http://books.google.com/books/content?id=-LtAAQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        {
-            "id": "BL0NNoFPuAQC",
-            "title": "High Performance MySQL",
-            "authors": [
-                "Baron Schwartz",
-                "Peter Zaitsev",
-                "Vadim Tkachenko",
-                "Jeremy D. Zawodny",
-                "Arjen Lentz",
-                "Derek J. Balling"
+            "imageLinks": "http://books.google.com/books/content?id=SDvvndSmG_YC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+            
+            "price": "Kshs.1200"
+            },
+            {
+            "id": "UUADAAAAYAAJ",
+            "title": "Scottish Notes and Queries",
+            "authors": ["Jakoyundi"],
+            "publisher": "Scribner",
+            "publishedDate": "1888",
+            "description": "This comprehensive guide delves into the fascinating world of family history,offering practical tools and techniques for tracing your ancestry. Whether you're a beginner or an experienced researcher, this book provides valuable insights into uncovering your roots, preserving family stories, and understanding the connections that shape your heritage.",
+            
+            "categories": [
+            "Genealogy"
             ],
-            "publisher": "\"O'Reilly Media, Inc.\"",
-            "publishedDate": "2008-06-18",
-            "description": "High Performance MySQL is the definitive guide to building fast, reliable systems with MySQL. Written by noted experts with years of real-world experience building very large systems, this book covers every aspect of MySQL performance in detail, and focuses on robustness, security, and data integrity. High Performance MySQL teaches you advanced techniques in depth so you can bring out MySQL's full power. Learn how to design schemas, indexes, queries and advanced MySQL features for maximum performance, and get detailed guidance for tuning your MySQL server, operating system, and hardware to their fullest potential. You'll also learn practical, safe, high-performance ways to scale your applications with replication, load balancing, high availability, and failover. This second edition is completely revised and greatly expanded, with deeper coverage in all areas. Major additions include: Emphasis throughout on both performance and reliability Thorough coverage of storage engines, including in-depth tuning and optimizations for the InnoDB storage engine Effects of new features in MySQL 5.0 and 5.1, including stored procedures, partitioned databases, triggers, and views A detailed discussion on how to build very large, highly scalable systems with MySQL New options for backups and replication Optimization of advanced querying features, such as full-text searches Four new appendices The book also includes chapters on benchmarking, profiling, backups, security, and tools and techniques to help you measure, monitor, and manage your MySQL installations.",
-            "category": "Computers",
-            "pageCount": 712,
-            "imageLink": "http://books.google.com/books/content?id=BL0NNoFPuAQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        }
+            "imageLinks": "http://books.google.com/books/content?id=UUADAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+            "price": "Kshs.1200"
+            },
+
+            {
+                "id": "-LtAAQAAMAAJ",
+                "title": "The China Review, Or, Notes and Queries on the Far East",
+                "authors": [
+                    "Nicholas Belfield Dennys",
+                    "Ernest John Eitel",
+                    "William C. Barlow",
+                    "James Dyer Ball"
+                ],
+                "publisher": " Hongkong : China Mail Office",
+                "publishedDate": "1874",
+                "description": "The China Review, Or, Notes and Queries on the Far East was an academic journal published in Hong Kong from 1872 to 1901, primarily focused on scholarly writings about China by foreign scholars living on the Chinese coast, covering topics like arts, sciences, ethnology, folklore, geography, history, literature, mythology, customs, natural history, and religion across the broader Far East region including Japan, Mongolia, Tibet, and the Eastern Archipelago; it was edited in its early years by Nicholas Belfield Dennys, editor of the China Mail newspaper, and aimed to be similar to the previously published Notes and Queries on China and Japan",
+                "categories": [
+                      "China"
+                 ],
+                "imageLinks": "http://books.google.com/books/content?id=-LtAAQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+                "price": "KSh. 3599"        
+            }
+    
+            {
+                "id": "BL0NNoFPuAQC",
+                "title": "High Performance MySQL",
+                "authors": [
+                        "Baron Schwartz",
+                        "Peter Zaitsev",
+                        "Vadim Tkachenko",
+                        "Jeremy D. Zawodny",
+                        "Arjen Lentz",
+                        "Derek J. Balling"
+                    ],
+                "publisher": "\"O'Reilly Media, Inc.\"",
+                "publishedDate": "2008-06-18",
+                "description": "High Performance MySQL is the definitive guide to building fast, reliable systems with MySQL. Written by noted experts with years of real-world experience building very large systems, this book covers every aspect of MySQL performance in detail, and focuses on robustness, security, and data integrity. High Performance MySQL teaches you advanced techniques in depth so you can bring out MySQL's full power. Learn how to design schemas, indexes, queries and advanced MySQL features for maximum performance, and get detailed guidance for tuning your MySQL server, operating system, and hardware to their fullest potential. You'll also learn practical, safe, high-performance ways to scale your applications with replication, load balancing, high availability, and failover. This second edition is completely revised and greatly expanded, with deeper coverage in all areas. Major additions include: Emphasis throughout on both performance and reliability Thorough coverage of storage engines, including in-depth tuning and optimizations for the InnoDB storage engine Effects of new features in MySQL 5.0 and 5.1, including stored procedures, partitioned databases, triggers, and views A detailed discussion on how to build very large, highly scalable systems with MySQL New options for backups and replication Optimization of advanced querying features, such as full-text searches Four new appendices The book also includes chapters on benchmarking, profiling, backups, security, and tools and techniques to help you measure, monitor, and manage your MySQL installations.",
+                "categories": [
+                        "Computers"
+                    ],
+                "imageLinks": "http://books.google.com/books/content?id=BL0NNoFPuAQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+                "price": "KSh. 6342"
+                   
+                }
     ]
 }
