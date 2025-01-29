@@ -15,11 +15,11 @@ function Computers ()
 
 
     const booksList = books.map(book => (
-        <div key={book.categories}>
+        <div key={book.category}>
             <img src={book.imageLink} alt={book.title}/>
             <h3>{book.title}</h3>
             <p className='author'><span>Author: </span>{book.authors}</p>
-            <p><span>Category: </span>{book.categories.Computers}</p>
+            <p><span>Category: </span>{book.category.Computers}</p>
             
 
             <p>Price: {book.price}</p>
