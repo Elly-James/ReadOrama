@@ -47,7 +47,7 @@
             "categories": [
                 "History"
                 ],
-            "imageLink": "http://books.google.com/books/content?id=EfEOAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+            "imageLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTelt_Xp1doG5lLngg5l-ewMKc7CHgJyu_WXQ&s",
             "price": "KSh. 3000"
         },
         {
@@ -63,33 +63,8 @@
             "categories": [
                     "Computers"
                 ],
-            "imageLinks": "http://books.google.com/books/content?id=CY98qQNHOl4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+            "imageLink": "http://books.google.com/books/content?id=CY98qQNHOl4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
             "price": "KSh. 2500"
-        },
-
-        {
-            "Id": "EfEOAAAAYAAJ",
-            "Title": "The Magazine of History, with Notes and Queries",
-            "Authors": ["Benjamin Franklin", "Daniel Leeds","George Hicks"],
-            "Publisher": "Historical Publications Inc.",
-            "PublishedDate": "1917",
-            "Description": "A historical magazine offering detailed insights into past events, enriched with notes and thought-provoking queries for history enthusiasts.",
-            "Categories": ["History"],
-            "ImageLinks": "http://books.google.com/books/content?id=EfEOAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-            
-            "Price": "Ksh. 1200"
-        },
-        {
-            "Id": "CY98qQNHOl4C",
-            "Title": "Understanding Directory Services",
-            "Authors": ["Beth Sheresh", "Doug Sheresh"],
-            "Publisher": "Sams Publishing",
-            "PublishedDate": "2002",
-            "Description": "This comprehensive guide demystifies directory services, exploring foundational concepts, key technologies, and practical implementations to manage distributed information systems effectively.",
-            "Categories": ["Computers"],
-            "ImageLinks": "http://books.google.com/books/content?id=CY98qQNHOl4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-            ,
-            "Price": "Ksh. 2300"
         },
 
         {
@@ -106,7 +81,7 @@
             "categories": [
             "Computers"
             ],
-            "imageLinks": "http://books.google.com/books/content?id=SDvvndSmG_YC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+            "imageLink": "http://books.google.com/books/content?id=SDvvndSmG_YC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
             
             "price": "Kshs.1200"
             },
@@ -121,7 +96,7 @@
             "categories": [
             "Genealogy"
             ],
-            "imageLinks": "http://books.google.com/books/content?id=UUADAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+            "imageLink": "http://books.google.com/books/content?id=UUADAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
             "price": "Kshs.1200"
             },
 
@@ -138,11 +113,11 @@
                 "publishedDate": "1874",
                 "description": "The China Review, Or, Notes and Queries on the Far East was an academic journal published in Hong Kong from 1872 to 1901, primarily focused on scholarly writings about China by foreign scholars living on the Chinese coast, covering topics like arts, sciences, ethnology, folklore, geography, history, literature, mythology, customs, natural history, and religion across the broader Far East region including Japan, Mongolia, Tibet, and the Eastern Archipelago; it was edited in its early years by Nicholas Belfield Dennys, editor of the China Mail newspaper, and aimed to be similar to the previously published Notes and Queries on China and Japan",
                 "categories": [
-                      "China"
+                      "Asian"
                  ],
-                "imageLinks": "http://books.google.com/books/content?id=-LtAAQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+                "imageLink": "https://m.media-amazon.com/images/I/51QXlpIfmOL._AC_UF1000,1000_QL80_.jpg",
                 "price": "KSh. 3599"        
-            }
+            },
     
             {
                 "id": "BL0NNoFPuAQC",
@@ -161,9 +136,12 @@
                 "categories": [
                         "Computers"
                     ],
-                "imageLinks": "http://books.google.com/books/content?id=BL0NNoFPuAQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+                "imageLink": "http://books.google.com/books/content?id=BL0NNoFPuAQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
                 "price": "KSh. 6342"
                    
                 }
     ]
 }
+
+
+
