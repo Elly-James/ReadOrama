@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import Filter from './Filter';
+import { getBooks } from "./db.json";
 
 function Shop () {
     const [books, setBooks] = useState([]);
@@ -38,4 +39,5 @@ function Shop () {
             </div>
         </div>
     );
+}
 export default Shop;
