@@ -141,17 +141,7 @@
                    
                 },
 
-                {
-                    "id": "-LtAAQAAMAAJ",
-                    "title": "Intergenerational Life Writing in Min Jin Lee’s Pachinko",
-                    "authors": ["Burger, B. C.", "Mattila, L"],
-                    "publisher": "Random House Publishing",
-                    "publishedDate": "2017",
-                    "description": "This chapter focuses on Pachinko, an intergenerational family novel by Korean American author Min Jin Lee. The novel centres on a Korean family in the twentieth century as they relocate to Japan, a country in which they are perceived as ethnic outsiders. Lee details the Baek/Boku family’s intergenerational history by drawing from oral histories transmitted through personal interviews with the so-called Zainichi people, an example of the intergenerational experiences which have become prevalent in Asian Anglophone works. This trend reclaims but also reworks the family novel, which had largely declined in",
-                    "category": ["Asian"],
-                    "imageLink": "https://aatfweb.org/wp-content/uploads/2022/07/pachinko.jpg",
-                    "price": "KSh. 1525"
-                },
+        
                 {
                     "id": "-LtAQQBAMAAJ",
                     "title": "The Little Red Book",
@@ -479,6 +469,7 @@
                             "imageLink": "https://m.media-amazon.com/images/I/71TYHByzngL._SL1500_.jpg",
                             "price": "KSh. 2,500"
                           },
+
 
                             {
                               "id": "6lwQH0JZZosC",
