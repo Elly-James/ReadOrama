@@ -14,7 +14,10 @@ function App() {
   useEffect(() => {
     fetch("http://localhost:3000/books")
       .then((res) => res.json())
-      .then((data) => setBooks(data))
+      .then((data) => {
+        console.log("Fetched books:", data); // Debug log
+        setBooks(data);
+      })
       .catch((err) => console.error("Error fetching books:", err));
   }, []);
 

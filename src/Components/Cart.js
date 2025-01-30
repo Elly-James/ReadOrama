@@ -2,27 +2,21 @@ import React from "react";
 import CartItem from "./CartItem";
 
 function Cart({ cart, onRemoveFromCart, adjustQuantity }) {
-  // Helper function to extract numeric price value
-  const extractPrice = (priceString) => {
-    // Remove "KSh. " and any spaces, then convert to number
-    const numericValue = parseFloat(priceString.replace(/[^0-9.]/g, ''));
-    console.log('Extracted price:', numericValue, 'from:', priceString); // Debug log
-    return numericValue;
-  };
-
+  // Calculate the total price directly without parsing
   const calculateTotal = () => {
     try {
       const total = cart.reduce((sum, item) => {
-        const itemPrice = extractPrice(item.price);
-        const itemTotal = itemPrice * item.quantity;
-        console.log(`Item: ${item.title}, Price: ${itemPrice}, Quantity: ${item.quantity}, Subtotal: ${itemTotal}`); // Debug log
+        const itemTotal = item.price * item.quantity; // Directly use the numeric price
+        console.log(
+          `Item: ${item.title}, Price: ${item.price}, Quantity: ${item.quantity}, Subtotal: ${itemTotal}`
+        ); // Debug log
         return sum + itemTotal;
       }, 0);
 
-      console.log('Final total:', total); // Debug log
+      console.log("Final total:", total); // Debug log
       return total;
     } catch (error) {
-      console.error('Error calculating total:', error);
+      console.error("Error calculating total:", error);
       return 0;
     }
   };
@@ -34,7 +28,7 @@ function Cart({ cart, onRemoveFromCart, adjustQuantity }) {
         <p>Your cart is empty.</p>
       ) : (
         <>
-          <div className="space-y-4 mb-20"> {/* Added bottom margin to prevent overlap with fixed total */}
+          <div className="space-y-4 mb-20">
             {cart.map((item) => (
               <CartItem
                 key={item.id}
