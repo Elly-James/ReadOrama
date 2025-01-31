@@ -30,30 +30,3 @@ function SideBar() {
 }
 
 export default SideBar;
-
-/*
-
-import React from "react";
-import { Link } from "react-router-dom";
-
-function SideBar() {
-    const sections = [
-        { name: "Home", path: "/" },
-        { name: "Shop", path: "/shop" },
-    ];
-
-    return (
-        <div className="grid grid-cols-2 gap-4 p-6">
-            <h1>ReadOrama</h1>
-            <img src="https://i.pinimg.com/736x/cc/19/31/cc193190ec30a77865f3fb118bbc8ad3.jpg" alt="logo" />
-            {sections.map((section) => (
-                <Link to={section.path} key={section.name} className="flex flex-col items-center justify-center">
-                    <p>{section.name}</p>
-                </Link>
-            ))}
-        </div>
-    );
-}
-
-export default SideBar;
-*/
