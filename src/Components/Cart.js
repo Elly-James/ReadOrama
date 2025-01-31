@@ -88,6 +88,7 @@ function Cart({ cart, onRemoveFromCart, adjustQuantity }) {
             <div className="space-y-4">
               <div className="grid grid-cols-2 gap-4">
                 <div>
+                  <h2>Proceed to Checkout</h2>
                   <label className="block text-sm font-medium text-gray-700">First name</label>
                   <input
                     type="text"
@@ -143,7 +144,7 @@ function Cart({ cart, onRemoveFromCart, adjustQuantity }) {
 
             {/* Payment Method Selection */}
             <div className="mt-6">
-              <h2 className="text-lg font-bold mb-4">Payment method</h2>
+              <h2 className="text-lg font-bold mb-4">Choose Payment method</h2>
               <div className="space-y-4">
                 <div className="flex items-center">
                   <input

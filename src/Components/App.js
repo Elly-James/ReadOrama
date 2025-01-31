@@ -1,10 +1,11 @@
-
 import React, { useState, useEffect } from "react";
+import { Routes, Route } from "react-router-dom";
 import Home from "./Home";
 import SideBar from "./SideBar";
 import Shop from "./Shop";
 import Cart from "./Cart";
 import Favorites from "./Favorites";
+import Footer from "./Footer";
 
 function App() {
   const [cart, setCart] = useState([]);
@@ -58,26 +59,46 @@ function App() {
     <div className="flex">
       <SideBar />
       <main className="flex-grow">
-        <Home />
-        <Shop
-          books={books}
-          onAddToCart={handleAddToCart}
-          onAddToFavorites={handleAddToFavorites}
-          cart={cart}
-          favorites={favorites}
-        />
-        <Cart
-          cart={cart}
-          onRemoveFromCart={handleRemoveFromCart}
-          adjustQuantity={handleAdjustQuantity}
-        />
-        <Favorites
-          favorites={favorites}
-          onRemoveFromFavorites={handleRemoveFromFavorites}
-        />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route
+            path="/shop"
+            element={
+              <Shop
+                books={books}
+                onAddToCart={handleAddToCart}
+                onAddToFavorites={handleAddToFavorites}
+                cart={cart}
+                favorites={favorites}
+              />
+            }
+          />
+          <Route
+            path="/cart"
+            element={
+              <Cart
+                cart={cart}
+                onRemoveFromCart={handleRemoveFromCart}
+                adjustQuantity={handleAdjustQuantity}
+              />
+            }
+          />
+          <Route
+            path="/favorites"
+            element={
+              <Favorites
+                favorites={favorites}
+                onRemoveFromFavorites={handleRemoveFromFavorites}
+              />
+            }
+          />
+        </Routes>
       </main>
+      <Footer/>
     </div>
   );
 }
 
 export default App;
+
+
