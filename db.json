@@ -56,7 +56,7 @@
       ],
       "publisher": "Sams Publishing",
       "publishedDate": "2002",
-      "description": "Book Description Understanding Directory Servicesclarifies the complex topic of directory services, starting with basic theory and archetypes, and then working its way up to the current directory service implementations. It describes the basic idea behind directory services, explaining the underlying conceptual models, design characteristics, and methods of managing distributed information. The book begins with an overview of directory services and their core characteristics, highlighting critical aspects of directory information, distribution, and storage. The evolving nature of the information the directory contains, and the factors involved in organizing and managing it are discussed in detail, and then methods of information distribution and storage are examined at length. After exploring the basics of directory service, the book progresses to in-depth chapters on each of the critical technologies being used to implement directory services: * The X.500standards are explained to help you understand the foundations of directory services and provide a basis for comparison of the other directory technologies. *Lightweight Directory Access Protocol(LDAP) and its emerging role as a directory access standard is described in detail, with thorough explanations of models, naming, and operations. *The Domain Name System(DNS) is examined from a directory service perspective, noting parallels in structures and operations. This knowledge of directory services is then used to describe the design of X.500 and LDAP based directory service products, as well as NDS eDirectory and Active Directory, highlighting the architectural and operational implications of vendor's design decisions. This book: * Explores X.500-based directory products (eTrust, DirX, Nexor), and highlights implementation approaches and capabilities. * Describes the LDAP-based directory products (OpenLDAP, SecureWay, iPlanet), identifying similarities and differences between them. * ExplainsNDS eDirectorydescribing the underlying directory architecture and its foundations in X.500, and its evolution from an NOS-based directory to a general purpose directory service. * Examines howActive Directoryintegrates NT 4, LDAP, and DNS technologies into a directory service that leverages established Windows networks. * Explores the information management issues that meta-directories (Siemens DirXmetahub, iPlanet meta-directory, Microsoft Meta-directory Services, Novell DirXML) are designed to address, and characteristics of different types of meta-directory solutions (as well as Radiant Logic'sRadiant Onevirtual directory server). * Identifies the design of XML-based directory markup languages that map directory schema, objects, and operations providing directory interoperability. The final chapter is focused on helping you evaluate directory services in the context of your business and network environment. Information, business, and network control factors are identified, and key factors in directory service assessment are explained. Understanding Directory Servicesis an excellent reference for directory service technologies that includes extensive references and aglossarycontaining 385 directory service terms. By explaining key directory technologies, and the integration of those technologies, this book provides the information you need to understand the design and operations involved in all directory services. From the Back Cover Understanding Directory Servicesis the most in-depth resource available on directory services theory, architecture, and design. It provides the conceptual framework and critical technical information for IT professionals who are using directory services in their networks or e-business solutions. The 1st edition of this book covered the underlying directory service technologies (X.500, LDAP, DNS), and integrated the information from a networking perspective with a special focus on eDirectory and Active Directory. The 2nd Edition extends this coverage to the LDAP-based directories (such as iPlanet and SecureWay) and the X.500-based enterprise directory services (including eTrust, DirX, and Nexor), as well as the emerging meta-directory technologies and products which are crucial to the integration of the multiple directories in an enterprise networking environment. By explaining the origins and technologies of directory services, and clarifying the integration of key directory technologies into network and e-commerce platforms,Understanding Directory Servicesgives you the information you need to understand the underlying design and operations involved in all directory services. Reviews of the first edition Warren E. Wyrostek -- MCP Magazine ...superb, comprehensive...highly recommend it to all network professionals...a must read for anyone wrestling with deploying a directory service... Douglas Ludens -- About.com ...clearly organized and well written...a great book, I highly recommend it...essential to doing well with Windows 2000...",
+      "description": "Book Description Understanding Directory Servicesclarifies the complex topic of directory services, starting with basic theory and archetypes, and then working its way up to the current directory service implementations. It describes the basic idea behind directory services, explaining the underlying conceptual models, design characteristics, and methods of managing distributed information. The book begins with an overview of directory services and their core characteristics, highlighting critical aspects of directory information, distribution, and storage.",
       "category": [
         "Computers"
       ],
@@ -125,7 +125,7 @@
       ],
       "publisher": "\"O'Reilly Media, Inc.\"",
       "publishedDate": "2008-06-18",
-      "description": "High Performance MySQL is the definitive guide to building fast, reliable systems with MySQL. Written by noted experts with years of real-world experience building very large systems, this book covers every aspect of MySQL performance in detail, and focuses on robustness, security, and data integrity. High Performance MySQL teaches you advanced techniques in depth so you can bring out MySQL's full power. Learn how to design schemas, indexes, queries and advanced MySQL features for maximum performance, and get detailed guidance for tuning your MySQL server, operating system, and hardware to their fullest potential. You'll also learn practical, safe, high-performance ways to scale your applications with replication, load balancing, high availability, and failover. This second edition is completely revised and greatly expanded, with deeper coverage in all areas. Major additions include: Emphasis throughout on both performance and reliability Thorough coverage of storage engines, including in-depth tuning and optimizations for the InnoDB storage engine Effects of new features in MySQL 5.0 and 5.1, including stored procedures, partitioned databases, triggers, and views A detailed discussion on how to build very large, highly scalable systems with MySQL New options for backups and replication Optimization of advanced querying features, such as full-text searches Four new appendices The book also includes chapters on benchmarking, profiling, backups, security, and tools and techniques to help you measure, monitor, and manage your MySQL installations.",
+      "description": "High Performance MySQL is the definitive guide to building fast, reliable systems with MySQL. Written by noted experts with years of real-world experience building very large systems, this book covers every aspect of MySQL performance in detail, and focuses on robustness, security, and data integrity. High Performance MySQL teaches you advanced techniques in depth so you can bring out MySQL's full power. Learn how to design schemas, indexes, queries and advanced MySQL features for maximum performance, and get detailed guidance for tuning your MySQL server, operating system, and hardware to their fullest potential. You'll also learn practical, safe, high-performance ways to scale your applications with replication, load balancing, high availability, and failover. This second edition is completely revised and greatly expanded, with deeper coverage in all areas.",
       "category": [
         "Computers"
       ],
@@ -305,7 +305,7 @@
       ],
       "publisher": "Pathfinder",
       "publishedDate": "1972",
-      "description": "Frederick Engels' classic work was first published in 1884. In it he sets out a materialist explanation for the oppression of women. He shows that women's subjugation is inextricably bound up with the dissolution of the egalitarian 'primitive' commune and the emergence of class society -- characterised by private property, the family and the state. Engels' analysis gives the lie to any claims that women's oppression is eternal, a function of their biology or the supposed natural order of things. In the earliest human societies, despite their material poverty, women were not oppressed -- oppression came only with class society. Likewise, only the overthrow of capitalism will lay the basis for women's full and final emancipation. Today, women's rights are under attack -- across the globe and on all fronts. In their various ways, neoliberal ideology, religious fundamentalism and crude genetic determinism all suggest that women's second-class status is somehow natural, rather than being the product of a rotten social system. The struggle for women's rights needs to be informed by a scientific analysis of how women became the oppressed sex. Pat Brewer provides an introduction to Engels' pioneering study, updating it in the light of contemporary evidence. This is essential reading for feminists today.",
+      "description": "Frederick Engels' classic work was first published in 1884. In it he sets out a materialist explanation for the oppression of women. He shows that women's subjugation is inextricably bound up with the dissolution of the egalitarian 'primitive' commune and the emergence of class society -- characterised by private property, the family and the state. Engels' analysis gives the lie to any claims that women's oppression is eternal, a function of their biology or the supposed natural order of things. In the earliest human societies, despite their material poverty, women were not oppressed -- oppression came only with class society. Likewise, only the overthrow of capitalism will lay the basis for women's full and final emancipation.",
       "category": [
         "Genealogy"
       ],
@@ -320,7 +320,7 @@
       ],
       "publisher": "Simon and Schuster",
       "publishedDate": "2021-03-23",
-      "description": "Electra d'Aplièse is a woman who seems to have it all: as a top model, she has beauty, fame, and wealth. But beneath the glittery veneer, she's cracking under the pressure of it all. The last straw comes when she finds out her father has died and she turns to alcohol and drugs to ease the pain. As friends and colleagues fear for her health, Electra receives a shocking letter from a complete stranger who claims to be her grandmother. In 1939, Cecily Huntley-Morgan arrives fresh from New York to Lake Naivasha in Kenya for the exciting chance to stay with her godmother, the famous socialite Kiki Preston. But after a sheltered upbringing, she's completely astounded by the hedonistic antics of the other ex-pats in the infamous Happy Valley set. Celia soon grows to love her stunning but complicated new home, and she even accepts a proposal of marriage from Bill Forsythe, an enigmatic older cattle farmer. After a shocking discovery and with war looming, Cecily feels isolated and alone. Until she meets a young woman in the woods and makes her a promise that will change the course of her life forever.",
+      "description": "Electra d'Aplièse is a woman who seems to have it all: as a top model, she has beauty, fame, and wealth. But beneath the glittery veneer, she's cracking under the pressure of it all. The last straw comes when she finds out her father has died and she turns to alcohol and drugs to ease the pain. As friends and colleagues fear for her health, Electra receives a shocking letter from a complete stranger who claims to be her grandmother. In 1939, Cecily Huntley-Morgan arrives fresh from New York to Lake Naivasha in Kenya for the exciting chance to stay with her godmother, the famous socialite Kiki Preston. But after a sheltered upbringing, she's completely astounded by the hedonistic antics of the other ex-pats in the infamous Happy Valley set.",
       "category": [
         "Genealogy"
       ],
@@ -657,39 +657,8 @@
       ],
       "imageLink": "https://kingdomstoreonline.com/cdn/shop/files/th1q23_1200x.png?v=1724671194",
       "price": 1200
-    },
-    {
-      "id": "4fb6",
-      "title": "",
-      "authors": "",
-      "publisher": "",
-      "publishedDate": "",
-      "description": "",
-      "category": "Computers",
-      "imageLink": "",
-      "price": 0
-    },
-    {
-      "id": "dc8c",
-      "title": "",
-      "authors": "",
-      "publisher": "",
-      "publishedDate": "",
-      "description": "",
-      "category": "Computers",
-      "imageLink": "",
-      "price": "38"
-    },
-    {
-      "id": "5e10",
-      "title": "",
-      "authors": "",
-      "publisher": "",
-      "publishedDate": "",
-      "description": "",
-      "category": "Computers",
-      "imageLink": "",
-      "price": 0
     }
+  
+  
   ]
 }
