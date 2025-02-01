@@ -370,14 +370,37 @@ button.close:hover {
   background-color: #d9b9b9; /* Button color */
   margin-right: 1px;
   border-radius: 8px;
+  padding: 8px 12px;
+
+  transition: color 0.3s ease;
+  transform: scale(1);
+  transform-origin: center;
+  border: none;
 }
 
 .addToFavorites {
   color: white;
-  background-color: #2d2d32; /* Button color */
+  background-color: #c59c3d; /* Button color */
   margin-left: 1px;
   border-radius: 8px;
+  padding: 8px 12px;
+
+  transition: color 0.3s ease;
+  transform: scale(1);
+  transform-origin: center;
+  border: none;
 }
+.book-card .relative .moreInfo {
+  color: white;
+  background-color: #c84f4f; /* Button color */
+  margin-left: 1px;
+  border-radius: 8px;
+  padding: 8px 12px;
+  border: none;
+  
+}
+
+
 
 .addToCart:hover {
   transform: scale(1.05); /* Add a slight hover effect */
@@ -489,6 +512,7 @@ button.close:hover {
   transition: margin-left 0.3s ease; /* Smooth transition for margin change */
 }
 
+
 .sidebar.collapsed ~ .cart-page {
   margin-left: 80px; /* Adjusted margin for collapsed sidebar */
 }
@@ -498,6 +522,7 @@ button.close:hover {
   font-weight: bold;
   margin-bottom: 1.5rem;
   color: #333;
+  text-align: center;
 }
 
 .cart-page p {
@@ -508,10 +533,17 @@ button.close:hover {
 /* Cart Items Styling */
 .cart-items {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap; /* Allow items to wrap to the next row */
   gap: 1rem;
   margin-bottom: 6rem; /* Add space for the fixed total price section */
+  justify-content: space-between; /* Optional: evenly distribute items */
 }
+
+.cart-items > * {
+  flex: 1 1 calc(33.33% - 1rem); /* Each item takes up 1/3 of the row, minus the gap */
+  box-sizing: border-box; /* Ensure padding/margin doesn't break layout */
+}
+
 
 /* Total Price Section */
 .total-price-section {
@@ -536,6 +568,49 @@ button.close:hover {
   color: #333;
   text-align: right;
 }
+.book-card .quantity{
+  gap: 2px
+}
+
+.book-card .quantity .minus {
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin-right: 10px;
+  color:white;
+  transition: color 0.3s ease;
+  transform: scale(1);
+  transform-origin: center;
+  background-color: #c59c3d;
+  border-radius: 8px;
+  border: none;
+}
+
+.book-card .quantity .plus {
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: white;
+  margin-left: 10px;
+  transition: color 0.3s ease;
+  transform: scale(1);
+  transform-origin: center;
+  background-color: #c59c3d;
+  border-radius: 8px;
+  border: none;
+}
+
+.book-card .remove {
+  cursor: pointer;
+  font-size: 1rem;
+  color: black;
+  background-color: #d9b9b9;
+  border-radius: 8px;
+  margin-top: 2px;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+
+
 
 /* Payment Form Styling */
 .payment-form {
@@ -566,12 +641,13 @@ button.close:hover {
 .payment-form input,
 .payment-form select,
 .payment-form textarea {
-  width: 100%;
+  width: 80%;
   padding: 0.75rem;
   border: 1px solid #ddd;
   border-radius: 6px;
   font-size: 1rem;
   color: #333;
+  gap: 2px;
   background-color: #f9f9f9;
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
@@ -593,9 +669,15 @@ button.close:hover {
   grid-template-columns: repeat(2, 1fr);
 }
 
+.method{
+  text-align: left; 
+
+}
 .payment-form .flex {
   display: flex;
   align-items: center;
+  justify-content: flex-start; /* Align items to the left */
+  gap: 0.5rem; 
 }
 
 .payment-form .radio-label {
@@ -647,8 +729,48 @@ button.close:hover {
 
 
 
+.favorites {
+  margin-left: 250px; /* Adjust based on sidebar width */
+  padding: 20px;
+  transition: margin-left 0.3s ease; 
+}
 
 
+.favorites  h2{
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #333;
+  text-align: center;
+
+}
+.books-grid {
+  
+
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next row */
+    gap: 1rem;
+    margin-bottom: 6rem; /* Add space for the fixed total price section */
+    justify-content: space-between;
+  
+  
+}
+
+.sidebar.collapsed ~ .favorites {
+  margin-left: 80px; /* Adjusted margin for collapsed sidebar */
+}
+
+.remove2 {
+  cursor: pointer;
+  font-size: 1rem;
+  color: black;
+  background-color: #d9b9b9;
+  border-radius: 8px;
+  margin-top: 2px;
+  padding: 7px 12px;
+  transition: background-color 0.3s ease;
+  border: none;
+}
 
 
 

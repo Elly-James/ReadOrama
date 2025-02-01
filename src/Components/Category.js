@@ -27,7 +27,7 @@ const Category = ({ book, onAddToCart, onAddToFavorites, isInCart, isInFavorites
         {showButton && (
           <button
             onClick={openBookDetails}
-            className="absolute top-2 right-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+            className="moreInfo"
           >
             More Info
           </button>

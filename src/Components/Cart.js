@@ -12,6 +12,7 @@ function Cart({ cart, onRemoveFromCart, adjustQuantity }) {
     expiration_date: "",
     cvv: "",
     phone_number: "", // For M-Pesa
+    email:"",
   });
 
   const calculateTotal = () => {
@@ -29,6 +30,7 @@ function Cart({ cart, onRemoveFromCart, adjustQuantity }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Form submitted:", formData);
+    setFormData("")
     // Handle payment processing here based on payment_method
   };
 
@@ -107,7 +109,7 @@ function Cart({ cart, onRemoveFromCart, adjustQuantity }) {
           </div>
           <div>
             <h2>Choose Payment method</h2>
-            <div className="space-y-4">
+            <div className="methods">
               <div className="flex">
                 <input
                   type="radio"
@@ -204,6 +206,25 @@ function Cart({ cart, onRemoveFromCart, adjustQuantity }) {
                   />
                 </div>
                 <p>Enter your M-Pesa registered phone number</p>
+              </div>
+            </div>
+          )}
+          {formData.payment_method === "paypal" && (
+            <div className="space-y-4">
+              <div>
+                <label>Email</label>
+                <div className="flex">
+            
+                  <input
+                    type="text"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleInputChange}
+                    placeholder="abcdef@gmail.com"
+                    required
+                  />
+                </div>
+                <p>Enter your email address</p>
               </div>
             </div>
           )}
