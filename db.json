@@ -462,22 +462,7 @@
       "imageLink": "https://m.media-amazon.com/images/I/61V8g4GgqdL._SL1200_.jpg",
       "price": 9999
     },
-    {
-      "id": "502",
-      "title": "The History of the Decline and Fall of the Roman Empire",
-      "authors": [
-        "Edward Gibbon"
-      ],
-      "publisher": "Penguin Classics",
-      "publishedDate": "1776-1789 (original), various editions",
-      "description": "A seminal work chronicling the history of the Roman Empire from its peak to its decline.",
-      "category": [
-        "History",
-        "Ancient Rome"
-      ],
-      "imageLink": "https://m.media-amazon.com/images/I/71Zb-D8NaGL._SL1500_.jpg",
-      "price": 3398
-    },
+    
     {
       "id": "604",
       "title": "A People's History of the United States",
@@ -657,8 +642,17 @@
       ],
       "imageLink": "https://kingdomstoreonline.com/cdn/shop/files/th1q23_1200x.png?v=1724671194",
       "price": 1200
+    },
+    {
+      "id": "bbd0",
+      "title": "New to Genealogy - Beginners First Step",
+      "authors": "Willis.A.B, Jacob.M.W",
+      "publisher": "Scribner",
+      "publishedDate": "2019",
+      "description": "Genealogy is the study of a family’s origins and history and is often referred to as a family history. The first known use was in the 14th century to display a pedigree of royal, aristocratic, or clerical blood lines as a means of gaining and commanding respect. Some family trees, like that of Confucius, have been found to list 80 generations dating back 2,500 years.",
+      "category": "Genealogy",
+      "imageLink": "https://cdn11.bigcommerce.com/s-a18pj2f4t9/images/stencil/1280x1280/products/790/1173/Beginners-Guide-to-Genealogy-Cover-Angle-View-1280px__20112.1712168604.jpg?c=1",
+      "price": "1100"
     }
-  
-  
   ]
 }

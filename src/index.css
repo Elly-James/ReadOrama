@@ -12,6 +12,7 @@ code {
     monospace;
 }
 
+/* Sidebar Styles */
 .sidebar {
   position: fixed;
   top: 0;
@@ -23,6 +24,7 @@ code {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  z-index: 100;
 }
 
 .expanded {
@@ -63,9 +65,9 @@ code {
 }
 
 .logo {
-  width: 80px; /* Increased size for better visibility */
-  height: 80px; /* Maintain aspect ratio */
-  border-radius: 12px; 
+  width: 80px;
+  height: 80px;
+  border-radius: 12px;
 }
 
 .nav-links {
@@ -89,7 +91,7 @@ code {
 }
 
 .nav-link:hover {
-  background-color:  #FC5050;
+  background-color: #FC5050;
 }
 
 .nav-icon {
@@ -116,7 +118,7 @@ code {
 
 /* Active state styling */
 .nav-link.active {
-  background: linear-gradient(to right,  #d9b9b9,  #d9b9b9);
+  background: linear-gradient(to right, #d9b9b9, #d9b9b9);
   color: white;
 }
 
@@ -153,7 +155,7 @@ code {
   margin-bottom: 2rem;
 }
 .home .page {
-  background-color: black;
+  background-color: black ;
 }
 
 .home button {
@@ -235,6 +237,412 @@ button.close:hover {
 }
 
 
+
+
+
+
+
+
+/* Shop component styling */
+
+
+
+
+
+/* Shop Area */
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background: linear-gradient(to right, #d9b9b9, #d9b9b9);
+  transition: all 0.3s ease;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  z-index: 100;
+}
+
+.expanded {
+  width: 250px;
+}
+
+.collapsed {
+  width: 80px;
+}
+
+/* Shop Area */
+.shop-container {
+  margin-left: 250px; /* Initial margin based on expanded sidebar */
+  padding: 20px;
+  transition: margin-left 0.3s ease; /* Smooth transition for margin change */
+}
+
+.sidebar.collapsed ~ .shop-container {
+  margin-left: 80px; /* Adjusted margin for collapsed sidebar */
+}
+
+.shop-header  {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.shop-container .text-xl  {
+  text-align: center;
+
+}
+
+.books-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+
+.books-list {
+  display: flex;
+  gap: 15px; /* Reduced gap between books */
+  padding: 20px;
+  scroll-behavior: smooth;
+  width: calc(100% - 100px); /* Adjust based on chevron size */
+  overflow: hidden;
+}
+
+.book-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px; /* Reduced padding */
+  width: 220px; /* Reduced width for smaller book cards */
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 0 0 auto; /* Prevent flex shrinking */
+}
+
+.book-card img {
+  width: 100%;
+  height: 150px; /* Reduced height for images */
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.book-card h3 {
+  font-size: 1.2rem; /* Reduced font size */
+  margin: 10px 0;
+}
+
+.book-card p {
+  font-size: 1rem; /* Reduced font size */
+  color: #555;
+}
+
+/* Chevron Buttons */
+.nav-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent; /* No background color */
+  border: none;
+  color: #000; /* Default chevron color */
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 10;
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.nav-button.left {
+  left: 10px;
+}
+
+.nav-button.right {
+  right: 10px;
+}
+
+.nav-button:hover {
+  color: #FC5050; /* Chevron color on hover */
+}
+.addToCart {
+  color: #555;
+  background-color: #d9b9b9; /* Button color */
+  margin-right: 1px;
+  border-radius: 8px;
+}
+
+.addToFavorites {
+  color: white;
+  background-color: #2d2d32; /* Button color */
+  margin-left: 1px;
+  border-radius: 8px;
+}
+
+.addToCart:hover {
+  transform: scale(1.05); /* Add a slight hover effect */
+}
+
+.addToFavorites:hover {
+  transform: scale(1.05);
+}
+
+/* Style disabled buttons */
+.addToCart[disabled],
+.addToFavorites[disabled] {
+  opacity: 0.5;
+}
+
+
+
+
+
+
+/* Form Section Styling */
+.form-section {
+  margin-top: 2rem; /* Add some space above the form */
+  padding: 1rem;
+}
+
+.NewBook {
+  max-width: 600px; /* Limit the form width for better readability */
+  margin: 0 auto; /* Center the form horizontally */
+  padding: 1.5rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.NewBook h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #333;
+}
+
+.NewBook label {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #555;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.NewBook input,
+.NewBook select,
+.NewBook textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  color: #333;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.NewBook input:focus,
+.NewBook select:focus,
+.NewBook textarea:focus {
+  border-color: #d9b9b9;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(217, 185, 185, 0.2);
+}
+
+.NewBook textarea {
+  resize: vertical; /* Allow vertical resizing of the textarea */
+  min-height: 100px;
+}
+
+.NewBook button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #d9b9b9;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.NewBook button:hover {
+  background-color: #c0a0a0; /* Slightly darker on hover */
+}
+
+.NewBook button:active {
+  background-color: #a88a8a; /* Even darker on active */
+}
+
+
+
+
+
+
+/* Cart Page Styling */
+.cart-page {
+  margin-left: 250px; /* Adjust based on sidebar width */
+  padding: 20px;
+  transition: margin-left 0.3s ease; /* Smooth transition for margin change */
+}
+
+.sidebar.collapsed ~ .cart-page {
+  margin-left: 80px; /* Adjusted margin for collapsed sidebar */
+}
+
+.cart-page h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.cart-page p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Cart Items Styling */
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 6rem; /* Add space for the fixed total price section */
+}
+
+/* Total Price Section */
+.total-price-section {
+  position: fixed;
+  bottom: 0;
+  left: 250px; /* Adjust based on sidebar width */
+  right: 0;
+  background-color: #fff;
+  padding: 1rem;
+  border-top: 1px solid #ddd;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  transition: left 0.3s ease; /* Smooth transition for sidebar width change */
+}
+
+.sidebar.collapsed ~ .total-price-section {
+  left: 80px; /* Adjusted position for collapsed sidebar */
+}
+
+.total-price-section .total {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  text-align: right;
+}
+
+/* Payment Form Styling */
+.payment-form {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.payment-form h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.payment-form label {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #555;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.payment-form input,
+.payment-form select,
+.payment-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  color: #333;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.payment-form input:focus,
+.payment-form select:focus,
+.payment-form textarea:focus {
+  border-color: #d9b9b9;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(217, 185, 185, 0.2);
+}
+
+.payment-form .grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.payment-form .grid-cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.payment-form .flex {
+  display: flex;
+  align-items: center;
+}
+
+.payment-form .radio-label {
+  margin-left: 0.5rem;
+  font-size: 1rem;
+  color: #333;
+}
+
+.payment-form button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #d9b9b9;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.payment-form button:hover {
+  background-color: #c0a0a0; /* Slightly darker on hover */
+}
+
+.payment-form button:active {
+  background-color: #a88a8a; /* Even darker on active */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .cart-page {
+    margin-left: 80px; /* Adjusted margin for smaller screens */
+  }
+
+  .total-price-section {
+    left: 80px; /* Adjusted position for smaller screens */
+  }
+
+  .payment-form {
+    padding: 1rem;
+  }
+
+  .payment-form .grid-cols-2 {
+    grid-template-columns: 1fr;
+  }
+}
 
 
 

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
 const Category = ({ book, onAddToCart, onAddToFavorites, isInCart, isInFavorites }) => {
-  const [showButton, setShowButton] = useState(false); // State to toggle floating button
-  const [showModal, setShowModal] = useState(false); // State to toggle modal visibility
+  const [showButton, setShowButton] = useState(false);
+  const [showModal, setShowModal] = useState(false);
 
   const openBookDetails = () => {
     setShowModal(true);
@@ -12,25 +12,18 @@ const Category = ({ book, onAddToCart, onAddToFavorites, isInCart, isInFavorites
     setShowModal(false);
   };
 
-  // Ensure authors is displayed correctly
   const authors = Array.isArray(book.authors)
     ? book.authors.join(", ")
     : book.authors || "Unknown Author";
 
   return (
-    <div className="border p-4 rounded-lg shadow-md bg-white relative">
-      {/* Book Image with hover functionality */}
+    <div className="book-card">
       <div
         className="relative"
         onMouseEnter={() => setShowButton(true)}
         onMouseLeave={() => setShowButton(false)}
       >
-        <img
-          src={book.imageLink}
-          alt={book.title}
-          className="w-full h-40 object-cover rounded-md"
-        />
-        {/* Floating Button */}
+        <img src={book.imageLink} alt={book.title} className="w-full h-40 object-cover rounded-md" />
         {showButton && (
           <button
             onClick={openBookDetails}
@@ -40,14 +33,13 @@ const Category = ({ book, onAddToCart, onAddToFavorites, isInCart, isInFavorites
           </button>
         )}
       </div>
-      {/* Book Details */}
       <h3 className="mt-2 font-bold">{book.title || "Untitled"}</h3>
       <p className="text-gray-600">{authors}</p>
       <p className="text-blue-500 font-bold mt-2">Ksh. {book.price || "N/A"}</p>
       <div className="mt-4 space-y-2">
         <button
           onClick={() => onAddToCart(book)}
-          className={`w-full px-4 py-2 rounded ${
+          className={`addToCart ${
             isInCart
               ? "bg-gray-300 cursor-not-allowed"
               : "bg-blue-500 hover:bg-blue-600 text-white"
@@ -58,7 +50,7 @@ const Category = ({ book, onAddToCart, onAddToFavorites, isInCart, isInFavorites
         </button>
         <button
           onClick={() => onAddToFavorites(book)}
-          className={`w-full px-4 py-2 rounded ${
+          className={`addToFavorites ${
             isInFavorites
               ? "bg-gray-300 cursor-not-allowed"
               : "bg-pink-500 hover:bg-pink-600 text-white"
@@ -68,8 +60,6 @@ const Category = ({ book, onAddToCart, onAddToFavorites, isInCart, isInFavorites
           {isInFavorites ? "In Favorites" : "Add to Favorites"}
         </button>
       </div>
-
-      {/* Modal for Book Details */}
       {showModal && (
         <div className="modal">
           <div className="modal-content">
