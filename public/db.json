@@ -1,0 +1,646 @@
+{
+  "books": [
+    {
+      "id": "bpfcDgAAQBAJ",
+      "title": "Web Application Development with MEAN",
+      "authors": [
+        "Amos Q. Haviv",
+        "Adrian Mejia",
+        "Robert Onodi"
+      ],
+      "publisher": "Packt Publishing Ltd",
+      "publishedDate": "2016-10-28",
+      "description": "Unlock the power of the MEAN stack by creating attractive and real-world projects About This Book Learn about the different components that comprise a MEAN application to construct a fully functional MEAN application using the best third-party modules A step-by-step guide to developing the MEAN stack components from scratch to achieve maximum flexibility when building an e-commerce application Build optimum end-to-end web applications using the MEAN stack",
+      "category": [
+        "Computer"
+      ],
+      "imageLink": "https://content.packt.com/C06145/cover_image.jpg",
+      "price": 4800
+    },
+    {
+      "id": "FT6j3YMDhNYC",
+      "title": "Professional LINQ",
+      "authors": [
+        "Scott Klein"
+      ],
+      "publisher": "John Wiley & Sons",
+      "publishedDate": "2008-01-22",
+      "description": "Professional LINQ introduces experienced programmers and database developers to LINQ database queries in their native VB and C# languages. Some of the topics covered include: LINQ Queries LINQ and the Standard Query Operators Programming with XLinq Querying XML with XLinq Mixing XML and other data models DLinq and Queries LINQ over datasets Interoperating with ADO.NET LINQ and ASP.NET",
+      "category": [
+        "Computer"
+      ],
+      "imageLink": "https://m.media-amazon.com/images/I/61YAMPP0ZCL._AC_UF1000,1000_QL80_.jpg",
+      "price": 3200
+    },
+    {
+      "id": "EfEOAAAAYAAJ",
+      "title": "The Magazine of History, with Notes and Queries",
+      "authors": [
+        "Anon Sohala"
+      ],
+      "publisher": "Excel Publishing",
+      "publishedDate": "1917",
+      "description": "This work has been selected by scholars as being culturally important, and is part of the knowledge base of civilization as we know it. This work was reproduced from the original artifact, and remains as true to the original work as possible. Therefore, you will see the original copyright references, library stamps (as most of these works have been housed in our most important libraries around the world), and other notations in the work.",
+      "category": [
+        "History"
+      ],
+      "imageLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTelt_Xp1doG5lLngg5l-ewMKc7CHgJyu_WXQ&s",
+      "price": 3000
+    },
+    {
+      "id": "CY98qQNHOl4C",
+      "title": "Understanding Directory Services",
+      "authors": [
+        "Beth Sheresh",
+        "Doug Sheresh"
+      ],
+      "publisher": "Sams Publishing",
+      "publishedDate": "2002",
+      "description": "Book Description Understanding Directory Servicesclarifies the complex topic of directory services, starting with basic theory and archetypes, and then working its way up to the current directory service implementations. It describes the basic idea behind directory services, explaining the underlying conceptual models, design characteristics, and methods of managing distributed information. The book begins with an overview of directory services and their core characteristics, highlighting critical aspects of directory information, distribution, and storage.",
+      "category": [
+        "Computer"
+      ],
+      "imageLink": "https://m.media-amazon.com/images/I/51Wqtl-VTYL._AC_UF1000,1000_QL80_.jpg",
+      "price": 2500
+    },
+    {
+      "id": "SDvvndSmG_YC",
+      "title": "Successful ICT Projects in Access",
+      "authors": [
+        "P. M. Heathcote",
+        "Bonie Ngowi"
+      ],
+      "publisher": "Payne Gallway",
+      "publishedDate": "2002",
+      "description": "This book offers practical advice and strategies for successful implementation of Internet .Computing Technology (ICT) projects in schools, businesses, and government agencies. It covers various aspects of .ICT, including project planning, budgeting, staff training, and monitoring, as well as strategies for collaboration and communication among team members.",
+      "category": [
+        "Computer"
+      ],
+      "imageLink": "https://m.media-amazon.com/images/I/517VuyHj2gL._AC_UF1000,1000_QL80_.jpg",
+      "price": 1200
+    },
+    {
+      "id": "UUADAAAAYAAJ",
+      "title": "Scottish Notes and Queries",
+      "authors": [
+        "Jakoyundi"
+      ],
+      "publisher": "Scribner",
+      "publishedDate": "1888",
+      "description": "This comprehensive guide delves into the fascinating world of family history,offering practical tools and techniques for tracing your ancestry. Whether you're a beginner or an experienced researcher, this book provides valuable insights into uncovering your roots, preserving family stories, and understanding the connections that shape your heritage.",
+      "category": [
+        "Genealogy"
+      ],
+      "imageLink": "https://m.media-amazon.com/images/I/711IVpYEUrL._AC_UF1000,1000_QL80_.jpg",
+      "price": 1200
+    },
+    {
+      "id": "-LtAAQAAMAAJ",
+      "title": "The China Review, Or, Notes and Queries on the Far East",
+      "authors": [
+        "Nicholas Belfield Dennys",
+        "Ernest John Eitel",
+        "William C. Barlow",
+        "James Dyer Ball"
+      ],
+      "publisher": " Hongkong : China Mail Office",
+      "publishedDate": "1874",
+      "description": "The China Review, Or, Notes and Queries on the Far East was an academic journal published in Hong Kong from 1872 to 1901, primarily focused on scholarly writings about China by foreign scholars living on the Chinese coast, covering topics like arts, sciences, ethnology, folklore, geography, history, literature, mythology, customs, natural history, and religion across the broader Far East region including Japan, Mongolia, Tibet, and the Eastern Archipelago; it was edited in its early years by Nicholas Belfield Dennys, editor of the China Mail newspaper, and aimed to be similar to the previously published Notes and Queries on China and Japan",
+      "category": [
+        "Asian"
+      ],
+      "imageLink": "https://m.media-amazon.com/images/I/51QXlpIfmOL._AC_UF1000,1000_QL80_.jpg",
+      "price": 3599
+    },
+    {
+      "id": "BL0NNoFPuAQC",
+      "title": "High Performance MySQL",
+      "authors": [
+        "Baron Schwartz",
+        "Peter Zaitsev",
+        "Vadim Tkachenko",
+        "Jeremy D. Zawodny",
+        "Arjen Lentz",
+        "Derek J. Balling"
+      ],
+      "publisher": "\"O'Reilly Media, Inc.\"",
+      "publishedDate": "2008-06-18",
+      "description": "High Performance MySQL is the definitive guide to building fast, reliable systems with MySQL. Written by noted experts with years of real-world experience building very large systems, this book covers every aspect of MySQL performance in detail, and focuses on robustness, security, and data integrity. High Performance MySQL teaches you advanced techniques in depth so you can bring out MySQL's full power. Learn how to design schemas, indexes, queries and advanced MySQL features for maximum performance, and get detailed guidance for tuning your MySQL server, operating system, and hardware to their fullest potential. You'll also learn practical, safe, high-performance ways to scale your applications with replication, load balancing, high availability, and failover. This second edition is completely revised and greatly expanded, with deeper coverage in all areas.",
+      "category": [
+        "Computer"
+      ],
+      "imageLink": "https://m.media-amazon.com/images/I/81dO1BhszaL._AC_UF1000,1000_QL80_.jpg",
+      "price": 3599
+    },
+    {
+      "id": "-LtAQQBAMAAJ",
+      "title": "The Little Red Book",
+      "authors": [
+        "Mao, Z"
+      ],
+      "publisher": "Beijing Publications",
+      "publishedDate": "1964",
+      "description": "During China's Great Cultural Revolution from 1966 to 1976, the famous \"Little Red Book\", officially known as Quotations of Chairman Mao Zedong, was a must-have item for the Chinese. It is estimated that during those years altogether 5 billion copies of the collected Mao sayings were printed, which came in 500 different editions and 50 languages.",
+      "category": [
+        "Asian"
+      ],
+      "imageLink": "https://m.media-amazon.com/images/I/618VvZ1Yd-L._AC_UF1000,1000_QL80_.jpg",
+      "price": 1230
+    },
+    {
+      "id": "-LtARQCAMAAJ",
+      "title": "Wicked Fox",
+      "authors": [
+        "Quealy-Gainer"
+      ],
+      "publisher": "HarperTeen",
+      "publishedDate": "2019",
+      "description": "The BulleTin tion, giving this tale of the undead life and vigor, and the tone leans more toward amusement than any kind of horror. The bayou setting is deliciously immersive, and it adds a touch of Southern gothic with crumbling mansions and family secrets, while local lore calls up old rivalries, misbegotten fortunes, and rumors of a giant albino alligator. Black and white art featuring a bespectacled, curly-haired August and a wild-eyed, surprisingly endearing zombie adds character to an already flavorful tale.",
+      "category": [
+        "Asian"
+      ],
+      "imageLink": "https://m.media-amazon.com/images/I/81FxhsBiLlL._AC_UF1000,1000_QL80_.jpg",
+      "price": 1780
+    },
+    {
+      "id": "-LtARQDAMAAJ",
+      "title": "Vicious Spirits",
+      "authors": [
+        "Wurtzel, B. S."
+      ],
+      "publisher": "HarperTeen",
+      "publishedDate": "2021",
+      "description": "A Catherine wheel of a book, Vicious Spirits whirls in multiple directions with four main characters and a large supporting cast of family, friends, and frenemies, living and dead, and a bangmangi is missing. This continuation of Wicked Fox will appeal to readers who want to find out what happens next.",
+      "category": [
+        "Asian"
+      ],
+      "imageLink": "https://www.sfbok.se/sites/default/files/styles/1000x/sfbok/sfbokbilder/210/210211.jpg?bust=1597409322&itok=SuArL2q0",
+      "price": 1230
+    },
+    {
+      "id": "-LtARQEANAAJ",
+      "title": "A Brief History of Mandarin",
+      "authors": [
+        "Coblin, W. S."
+      ],
+      "publisher": "Peking University Press",
+      "publishedDate": "2000",
+      "description": "The received view of standard Mandarin is that it has been Pekingese-based for at least six hundred years. Recent research, little known outside a small circle of specialists, has revealed that this view is flawed and that for most of its history this standard language had little to do with Pekingese. The present paper introduces these new developments to the academic community at large.",
+      "category": [
+        "Asian"
+      ],
+      "imageLink": "https://www.translations.co.uk/wp-content/uploads/2022/09/The-History-of-Mandarin-Chinese-Language-min.png",
+      "price": 1645
+    },
+    {
+      "id": "-LtARQFAMAAJ",
+      "title": "Zen and Japanese Culture",
+      "authors": [
+        "B Suzuki"
+      ],
+      "publisher": "Princeton University Press",
+      "publishedDate": "2019",
+      "description": "Zen and Japanese Culture is a classic that has influenced generations of readers and played a major role in shaping conceptions of Zen’s influence on Japanese traditional arts. In simple and poetic language, Daisetz Suzuki describes Zen and its historical evolution. He connects Zen to the philosophy of the samurai, and subtly portrays the relationship between Zen and swordsmanship, haiku, tea ceremonies, and the Japanese love of nature",
+      "category": [
+        "Asian"
+      ],
+      "imageLink": "https://www.accartbooks.com/app/uploads/books/9780789213457-04-1.jpg",
+      "price": 2100
+    },
+    {
+      "id": "-LtARQGAMAAJ",
+      "title": "Culture, Multiracialism, and National Identity in Singapore",
+      "authors": [
+        "Beng-Huat, C."
+      ],
+      "publisher": "Routledge",
+      "publishedDate": "2005",
+      "description": "If cultural hybridization and syncretism is a mark of postcoloniality, then the cultural sphere in Singapore may be said to be 'postcolonial'. Yet, with slightly more than three decades of political independence, its political sphere is still firmly placed in the modernist trajectory of nation formation; whereas post-coloniality requires for its politics the deconstruction of the nation-state as a move to escape from Eurocentrism of the colonial masters.",
+      "category": [
+        "Asian"
+      ],
+      "imageLink": "https://media.springernature.com/full/springer-static/cover-hires/book/978-981-13-1011-9",
+      "price": 1850
+    },
+    {
+      "id": "-LtARQHAMAAJ",
+      "title": "Dietary Habits of Mongolian People",
+      "authors": [
+        "Komatsu, F.",
+        "Kagawa, Y.",
+        "Kawabata, T."
+      ],
+      "publisher": "National Institute of Health Sciences",
+      "publishedDate": "2018",
+      "description": "Mongolians are known to have relatively short life expectancy. In order to examine the role of dietary habits in the early aging of Mongolians, the food intake inquiry, anthropometric measurements and blood clinical tests were performed for 365 healthy inhabitants in Murun, a northern Mongolia city, and compared to those of Japanese",
+      "category": [
+        "Asian"
+      ],
+      "imageLink": "https://www.westonaprice.org/wp-content/uploads/Graphics-Episode-Art-WT-400-Mary-Ruddick-Square-1.jpg",
+      "price": 1720
+    },
+    {
+      "id": "z_I5EAAAQBAJ",
+      "title": "Genealogy: a novel",
+      "authors": [
+        "Mae Wood"
+      ],
+      "publisher": "Atacama Books",
+      "publishedDate": "2021-07-24",
+      "description": "Inspired by real, hundred-year-old love letters...",
+      "category": [
+        "Genealogy"
+      ],
+      "imageLink": "https://m.media-amazon.com/images/I/61nvYQlg0ZL._AC_UF1000,1000_QL80_.jpg",
+      "price": 1231
+    },
+    {
+      "id": "IHKNAAAAIAAJ",
+      "title": "The Origin of the Family, Private Property, and the State",
+      "authors": [
+        "Friedrich Engels"
+      ],
+      "publisher": "New York : International Publishers",
+      "publishedDate": "1972",
+      "description": "How the emergence of class-divided society gave rise to repressive state bodies and family structures that protect the property of the ruling layers and enable them to pass along wealth and privilege. Engels discusses the consequences for working people of these class institutions -- from their original forms to those of modern times.",
+      "category": [
+        "Genealogy"
+      ],
+      "imageLink": "https://m.media-amazon.com/images/I/61uL4rEwmkL._AC_UF1000,1000_QL80_.jpg",
+      "price": 2400
+    },
+    {
+      "id": "21z2hbOuTcEC",
+      "title": "Fathers Love Letter",
+      "authors": [
+        "Barry S. Hewlett"
+      ],
+      "publisher": "University of Michigan Press",
+      "publishedDate": "1993-01-27",
+      "description": "This systematic study of non-Western fathers' roles in infant care focuses on the Aka pygmies of central Africa",
+      "category": [
+        "Genealogy"
+      ],
+      "imageLink": "https://m.media-amazon.com/images/I/81BO---nuKL.jpg",
+      "price": 3800
+    },
+    
+    {
+      "id": "QlIgAQAAIAAJ",
+      "title": "The Origin of the Family, Private Property, and the State",
+      "authors": [
+        "Friedrich Engels"
+      ],
+      "publisher": "Pathfinder",
+      "publishedDate": "1972",
+      "description": "Frederick Engels' classic work was first published in 1884. In it he sets out a materialist explanation for the oppression of women. He shows that women's subjugation is inextricably bound up with the dissolution of the egalitarian 'primitive' commune and the emergence of class society -- characterised by private property, the family and the state. Engels' analysis gives the lie to any claims that women's oppression is eternal, a function of their biology or the supposed natural order of things. In the earliest human societies, despite their material poverty, women were not oppressed -- oppression came only with class society. Likewise, only the overthrow of capitalism will lay the basis for women's full and final emancipation.",
+      "category": [
+        "Genealogy"
+      ],
+      "imageLink": "https://www.marxistbooks.com/cdn/shop/products/OriginImageforMBooks_grande.png?v=1613690979",
+      "price": 1631
+    },
+    {
+      "id": "7MkfEAAAQBAJ",
+      "title": "The Sun Sister",
+      "authors": [
+        "Lucinda Riley"
+      ],
+      "publisher": "Simon and Schuster",
+      "publishedDate": "2021-03-23",
+      "description": "Electra d'Aplièse is a woman who seems to have it all: as a top model, she has beauty, fame, and wealth. But beneath the glittery veneer, she's cracking under the pressure of it all. The last straw comes when she finds out her father has died and she turns to alcohol and drugs to ease the pain. As friends and colleagues fear for her health, Electra receives a shocking letter from a complete stranger who claims to be her grandmother. In 1939, Cecily Huntley-Morgan arrives fresh from New York to Lake Naivasha in Kenya for the exciting chance to stay with her godmother, the famous socialite Kiki Preston. But after a sheltered upbringing, she's completely astounded by the hedonistic antics of the other ex-pats in the infamous Happy Valley set.",
+      "category": [
+        "Genealogy"
+      ],
+      "imageLink": "http://books.google.com/books/content?id=7MkfEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+      "id": "w1UICgAAQBAJ",
+      "title": "Breaking Generational Curses & Pulling Down Strongholds",
+      "authors": [
+        "Vito Rallo"
+      ],
+      "publisher": "Charisma Media",
+      "publishedDate": "2000",
+      "description": "Learn to use the mighty weapons of spiritual warfare that God has provided--weapons that have divine power to demolish strongholds!",
+      "category": [
+        "Genealogy"
+      ],
+      "imageLink": "http://books.google.com/books/content?id=w1UICgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "price": 4800
+    },
+    {
+      "id": "d7PN2QZkr60C",
+      "title": "Midnight's Children",
+      "authors": [
+        "Salman Rushdie"
+      ],
+      "publisher": "Picador",
+      "publishedDate": "1982",
+      "description": "Rushdie examines India's contemporary history by following the lives of the 1,001 fictional children born in the first hour of the country's independence from Great Britain on Aug. 15, 1947.",
+      "category": [
+        "Genealogy"
+      ],
+      "imageLink": "http://books.google.com/books/content?id=d7PN2QZkr60C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "price": 2372
+    },
+    {
+      "id": "BqXQUQ4nW4gC",
+      "title": "A History of Private Life: From pagan Rome to Byzantium",
+      "authors": [
+        "Philippe Ari`es",
+        "Georges Duby"
+      ],
+      "publisher": "Harvard University Press",
+      "publishedDate": "1987",
+      "description": "Library has Vol. 1-5.",
+      "category": [
+        "Genealogy"
+      ],
+      "imageLink": "http://books.google.com/books/content?id=BqXQUQ4nW4gC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "price": 3212
+    },
+    {
+      "id": "UaNvEAAAQBAJ",
+      "title": "Legendborn",
+      "authors": [
+        "Tracy Deonn"
+      ],
+      "publisher": "Simon and Schuster",
+      "publishedDate": "2022-02",
+      "description": "Includes a short story from Selwyn Kane's point of view.",
+      "category": [
+        "Genealogy"
+      ],
+      "imageLink": "http://books.google.com/books/content?id=UaNvEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "price": 6351
+    },
+    {
+      "id": "tb0u8ZzaiRYC",
+      "title": "Polish Roots",
+      "authors": [
+        "Rosemary A. Chorzempa"
+      ],
+      "publisher": "Springer DE",
+      "publishedDate": "1993",
+      "description": "Guidebook for researching anyone's Polish ancestry.",
+      "category": [
+        "Genealogy"
+      ],
+      "imageLink": "http://books.google.com/books/content?id=tb0u8ZzaiRYC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "price": 1891
+    },
+    {
+      "id": "127",
+      "title": "The Rise and Fall of the Third Reich: A History of Nazi Germany",
+      "authors": [
+        "William L. Shirer"
+      ],
+      "publisher": "Simon & Schuster",
+      "publishedDate": "1960",
+      "description": "A comprehensive account of Nazi Germany, detailing its origins, rise to power, and eventual downfall during World War II.",
+      "category": [
+        "History"
+      ],
+      "imageLink": "https://m.media-amazon.com/images/I/71EkP5n-z0L._SL1500_.jpg",
+      "price": 9219
+    },
+    {
+      "id": "2888",
+      "title": "1776",
+      "authors": [
+        "David McCullough"
+      ],
+      "publisher": "Simon & Schuster",
+      "publishedDate": "2005",
+      "description": "An engaging narrative focusing on the pivotal year of 1776 during the American Revolution, highlighting key figures and battles.",
+      "category": [
+        "History"
+      ],
+      "imageLink": "https://m.media-amazon.com/images/I/81j0BRX2FHL._SL1500_.jpg",
+      "price": 4500
+    },
+    {
+      "id": "367",
+      "title": "Team of Rivals: The Political Genius of Abraham Lincoln",
+      "authors": [
+        "Doris Kearns Goodwin"
+      ],
+      "publisher": "Simon & Schuster",
+      "publishedDate": "2005",
+      "description": "A detailed study of Abraham Lincoln's leadership and his relationships with his cabinet members, who were former political rivals.",
+      "category": [
+        "History"
+      ],
+      "imageLink": "https://m.media-amazon.com/images/I/71y1eYis7AL._SL1500_.jpg",
+      "price": 1113
+    },
+    {
+      "id": "499",
+      "title": "Guns, Germs, and Steel: The Fates of Human Societies",
+      "authors": [
+        "Jared Diamond"
+      ],
+      "publisher": "W.W. Norton & Company",
+      "publishedDate": "1997",
+      "description": "An exploration of the factors that influenced the development of human societies, including geography, environment, and technology.",
+      "category": [
+        "History"
+      ],
+      "imageLink": "https://m.media-amazon.com/images/I/61V8g4GgqdL._SL1200_.jpg",
+      "price": 9999
+    },
+    
+    {
+      "id": "604",
+      "title": "A People's History of the United States",
+      "authors": [
+        "Howard Zinn"
+      ],
+      "publisher": "Harper Perennial",
+      "publishedDate": "1980",
+      "description": "A narrative that presents American history from the perspective of marginalized and oppressed groups.",
+      "category": [
+        "History"
+      ],
+      "imageLink": "https://m.media-amazon.com/images/I/71Zb-D8NaGL._SL1500_.jpg",
+      "price": 3000
+    },
+    {
+      "id": "7888",
+      "title": "The Guns of August",
+      "authors": [
+        "Barbara W. Tuchman"
+      ],
+      "publisher": "Presidio Press",
+      "publishedDate": "1962",
+      "description": "A detailed account of the events leading up to World War I and the first month of the conflict.",
+      "category": [
+        "History"
+      ],
+      "imageLink": "https://m.media-amazon.com/images/I/61tk4fDsExL._SL1200_.jpg",
+      "price": 7109
+    },
+    {
+      "id": "88889",
+      "title": "The Silk Roads: A New History of the World",
+      "authors": [
+        "Peter Frankopan"
+      ],
+      "publisher": "Vintage",
+      "publishedDate": "2015",
+      "description": "A comprehensive history of the world, focusing on the importance of the Silk Roads in connecting the East and West, shaping global civilizations.",
+      "category": [
+        "History"
+      ],
+      "imageLink": "https://m.media-amazon.com/images/I/91A1-6ny+pL._SL1500_.jpg",
+      "price": 3121
+    },
+    {
+      "id": "902",
+      "title": "Sapiens: A Brief History of Humankind",
+      "authors": [
+        "Yuval Noah Harari"
+      ],
+      "publisher": "Harper",
+      "publishedDate": "2014",
+      "description": "Harari explores the history of humankind, from the emergence of Homo sapiens in the Stone Age to the present, examining how biology and history have defined us and enhanced our understanding of what it means to be 'human.'",
+      "category": [
+        "History"
+      ],
+      "imageLink": "https://m.media-amazon.com/images/I/716E6dQ4BXL._SL1500_.jpg",
+      "price": 9011
+    },
+    {
+      "id": "1056",
+      "title": "The Wright Brothers",
+      "authors": [
+        "David McCullough"
+      ],
+      "publisher": "Simon & Schuster",
+      "publishedDate": "2015",
+      "description": "The Wright Brothers tells the inspiring story of Wilbur and Orville Wright, who defied the odds and made history by achieving the first powered flight in 1903. It explores their humble beginnings, perseverance, and the trials they faced to achieve their dream.",
+      "category": [
+        "History"
+      ],
+      "imageLink": "https://m.media-amazon.com/images/I/71TYHByzngL._SL1500_.jpg",
+      "price": 1798
+    },
+    {
+      "id": "6lwQH0JZZosC",
+      "title": "Things Fall Apart",
+      "authors": [
+        "Chinua Achebe"
+      ],
+      "publisher": "Heinemann",
+      "publishedDate": "1958",
+      "description": "Praised as one of the most important African novels, *Things Fall Apart* depicts the tragic downfall of Okonkwo, an Igbo leader, as British colonization and Christian missionaries alter his traditional society.",
+      "category": [
+        "African Literature"
+      ],
+      "imageLink": "https://cdnattic.atticbooks.co.ke/img/X871261.jpg",
+      "price": 1113
+    },
+    {
+      "id": "1qEoeHXOER4C",
+      "title": "Half of a Yellow Sun",
+      "authors": [
+        "Chimamanda Ngozi Adichie"
+      ],
+      "publisher": "Knopf",
+      "publishedDate": "2006",
+      "description": "A poignant narrative set against the backdrop of the Nigerian Civil War, this novel intertwines the stories of three characters caught in the conflict, revealing the personal toll of war.",
+      "category": [
+        "African Literature"
+      ],
+      "imageLink": "https://m.media-amazon.com/images/I/81LWdw51BZL._SS1000_.jpg",
+      "price": 1347
+    },
+    {
+      "id": "GvABzfs0ZsIC",
+      "title": "The Gods Are Not to Blame",
+      "authors": [
+        "Ola Rotimi"
+      ],
+      "publisher": "Longman",
+      "publishedDate": "1971",
+      "description": "A Nigerian reimagining of Sophocles’ *Oedipus Rex*, this play explores themes of fate, leadership, and the clash between tradition and modernity in African society.",
+      "category": [
+        "African Literature"
+      ],
+      "imageLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyIqTb2lV0gBXnA4U7lVhdLHK_ytWWGkttzTIq1neqUhVrOhCYQug8pCS5&s=10",
+      "price": 1443
+    },
+    {
+      "id": "xJAKH1ZjSjoC",
+      "title": "Season of Migration to the North",
+      "authors": [
+        "Tayeb Salih"
+      ],
+      "publisher": "Heinemann",
+      "publishedDate": "1966",
+      "description": "This Sudanese novel addresses themes of identity and colonialism through the story of a man who returns to Sudan after studying in Europe, only to find himself torn between two worlds.",
+      "category": [
+        "African Literature"
+      ],
+      "imageLink": "https://rofhiwabooks.com/cdn/shop/products/ibg.common.titledetail_27_grande.jpg?v=1611093755",
+      "price": 9001
+    },
+    {
+      "id": "khvKz7iFIF0C",
+      "title": "Disgrace",
+      "authors": [
+        "J.M. Coetzee"
+      ],
+      "publisher": "Secker & Warburg",
+      "publishedDate": "1999",
+      "description": "Set in post-apartheid South Africa, this novel examines the consequences of a university professor’s fall from grace after a scandal, highlighting the deep social and racial divisions in the country.",
+      "category": [
+        "African Literature"
+      ],
+      "imageLink": "https://m.media-amazon.com/images/I/51v-K3sy9XL._AC_UF1000,1000_QL80_.jpg",
+      "price": 2611
+    },
+    {
+      "id": "F6rPCo-rmk0C",
+      "title": "Americanah",
+      "authors": [
+        "Chimamanda Ngozi Adichie"
+      ],
+      "publisher": "Alfred A. Knopf",
+      "publishedDate": "2013",
+      "description": "The story of Ifemelu, a Nigerian woman who moves to America and experiences the complexities of race, identity, and immigration in the modern world.",
+      "category": [
+        "African Literature"
+      ],
+      "imageLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5KUFcTRh6Y6Qhi8nkEPrNeHW906KQRnIGtmFFJD9-5a1SBk2ps35yFdyZ&s=10",
+      "price": 7019
+    },
+    {
+      "id": "Jv0KhAEACAAJ",
+      "title": "The Beautyful Ones Are Not Yet Born",
+      "authors": [
+        "Ayi Kwei Armah"
+      ],
+      "publisher": "Heinemann",
+      "publishedDate": "1968",
+      "description": "Set in post-independence Ghana, this novel critiques the political corruption and societal decay that followed the nation’s early optimism after independence.",
+      "category": [
+        "African Literature"
+      ],
+      "imageLink": "https://kingdomstoreonline.com/cdn/shop/files/th1q23_1200x.png?v=1724671194",
+      "price": 1200
+    },
+    {
+      "id": "bbd0",
+      "title": "New to Genealogy - Beginners First Step",
+      "authors": "Willis.A.B, Jacob.M.W",
+      "publisher": "Scribner",
+      "publishedDate": "2019",
+      "description": "Genealogy is the study of a family’s origins and history and is often referred to as a family history. The first known use was in the 14th century to display a pedigree of royal, aristocratic, or clerical blood lines as a means of gaining and commanding respect. Some family trees, like that of Confucius, have been found to list 80 generations dating back 2,500 years.",
+      "category": "Genealogy",
+      "imageLink": "https://cdn11.bigcommerce.com/s-a18pj2f4t9/images/stencil/1280x1280/products/790/1173/Beginners-Guide-to-Genealogy-Cover-Angle-View-1280px__20112.1712168604.jpg?c=1",
+      "price": "1100"
+    }
+  ]
+}
