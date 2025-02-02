@@ -70,7 +70,7 @@ const Footer = () => {
 
         <div className="sb_footer-below">
           <div className="sb_footer-copyright">
-            <p>@{new Date().getFullYear()} ReadOrama. All right reserved.</p>
+            <p>@{new Date().getFullYear()} ReadOrama. All rights reserved.</p>
           </div>
           <div className="sb_footer-below-links">
             <a href="/terms"><div><p>Terms & Conditions</p></div></a>

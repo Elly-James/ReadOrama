@@ -12,9 +12,9 @@
       "publishedDate": "2016-10-28",
       "description": "Unlock the power of the MEAN stack by creating attractive and real-world projects About This Book Learn about the different components that comprise a MEAN application to construct a fully functional MEAN application using the best third-party modules A step-by-step guide to developing the MEAN stack components from scratch to achieve maximum flexibility when building an e-commerce application Build optimum end-to-end web applications using the MEAN stack",
       "category": [
-        "Computers"
+        "Computer"
       ],
-      "imageLink": "http://books.google.com/books/content?id=bpfcDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "imageLink": "https://content.packt.com/C06145/cover_image.jpg",
       "price": 4800
     },
     {
@@ -27,9 +27,9 @@
       "publishedDate": "2008-01-22",
       "description": "Professional LINQ introduces experienced programmers and database developers to LINQ database queries in their native VB and C# languages. Some of the topics covered include: LINQ Queries LINQ and the Standard Query Operators Programming with XLinq Querying XML with XLinq Mixing XML and other data models DLinq and Queries LINQ over datasets Interoperating with ADO.NET LINQ and ASP.NET",
       "category": [
-        "Computers"
+        "Computer"
       ],
-      "imageLink": "http://books.google.com/books/content?id=FT6j3YMDhNYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "imageLink": "https://m.media-amazon.com/images/I/61YAMPP0ZCL._AC_UF1000,1000_QL80_.jpg",
       "price": 3200
     },
     {
@@ -58,9 +58,9 @@
       "publishedDate": "2002",
       "description": "Book Description Understanding Directory Servicesclarifies the complex topic of directory services, starting with basic theory and archetypes, and then working its way up to the current directory service implementations. It describes the basic idea behind directory services, explaining the underlying conceptual models, design characteristics, and methods of managing distributed information. The book begins with an overview of directory services and their core characteristics, highlighting critical aspects of directory information, distribution, and storage.",
       "category": [
-        "Computers"
+        "Computer"
       ],
-      "imageLink": "http://books.google.com/books/content?id=CY98qQNHOl4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "imageLink": "https://m.media-amazon.com/images/I/51Wqtl-VTYL._AC_UF1000,1000_QL80_.jpg",
       "price": 2500
     },
     {
@@ -74,9 +74,9 @@
       "publishedDate": "2002",
       "description": "This book offers practical advice and strategies for successful implementation of Internet .Computing Technology (ICT) projects in schools, businesses, and government agencies. It covers various aspects of .ICT, including project planning, budgeting, staff training, and monitoring, as well as strategies for collaboration and communication among team members.",
       "category": [
-        "Computers"
+        "Computer"
       ],
-      "imageLink": "http://books.google.com/books/content?id=SDvvndSmG_YC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "imageLink": "https://m.media-amazon.com/images/I/517VuyHj2gL._AC_UF1000,1000_QL80_.jpg",
       "price": 1200
     },
     {
@@ -91,7 +91,7 @@
       "category": [
         "Genealogy"
       ],
-      "imageLink": "http://books.google.com/books/content?id=UUADAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "imageLink": "https://m.media-amazon.com/images/I/711IVpYEUrL._AC_UF1000,1000_QL80_.jpg",
       "price": 1200
     },
     {
@@ -127,9 +127,9 @@
       "publishedDate": "2008-06-18",
       "description": "High Performance MySQL is the definitive guide to building fast, reliable systems with MySQL. Written by noted experts with years of real-world experience building very large systems, this book covers every aspect of MySQL performance in detail, and focuses on robustness, security, and data integrity. High Performance MySQL teaches you advanced techniques in depth so you can bring out MySQL's full power. Learn how to design schemas, indexes, queries and advanced MySQL features for maximum performance, and get detailed guidance for tuning your MySQL server, operating system, and hardware to their fullest potential. You'll also learn practical, safe, high-performance ways to scale your applications with replication, load balancing, high availability, and failover. This second edition is completely revised and greatly expanded, with deeper coverage in all areas.",
       "category": [
-        "Computers"
+        "Computer"
       ],
-      "imageLink": "http://books.google.com/books/content?id=BL0NNoFPuAQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "imageLink": "https://m.media-amazon.com/images/I/81dO1BhszaL._AC_UF1000,1000_QL80_.jpg",
       "price": 3599
     },
     {
@@ -251,12 +251,12 @@
       "category": [
         "Genealogy"
       ],
-      "imageLink": "https://books.google.com/books/content?id=z_I5EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "imageLink": "https://m.media-amazon.com/images/I/61nvYQlg0ZL._AC_UF1000,1000_QL80_.jpg",
       "price": 1231
     },
     {
       "id": "IHKNAAAAIAAJ",
-      "title": "The Origin of the Family, Private Property, and the State, in the Light of the Researches of Lewis H. Morgan",
+      "title": "The Origin of the Family, Private Property, and the State",
       "authors": [
         "Friedrich Engels"
       ],
@@ -266,12 +266,12 @@
       "category": [
         "Genealogy"
       ],
-      "imageLink": "http://books.google.com/books/content?id=IHKNAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "imageLink": "https://m.media-amazon.com/images/I/61uL4rEwmkL._AC_UF1000,1000_QL80_.jpg",
       "price": 2400
     },
     {
       "id": "21z2hbOuTcEC",
-      "title": "Intimate Fathers",
+      "title": "Fathers Love Letter",
       "authors": [
         "Barry S. Hewlett"
       ],
@@ -281,22 +281,10 @@
       "category": [
         "Genealogy"
       ],
-      "imageLink": "http://books.google.com/books/content?id=21z2hbOuTcEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "imageLink": "https://m.media-amazon.com/images/I/81BO---nuKL.jpg",
       "price": 3800
     },
-    {
-      "id": "He3tAAAAMAAJ",
-      "title": "The Origin of the Family, Private Property and the State",
-      "authors": [
-        "Friedrich Engels"
-      ],
-      "publishedDate": "1902",
-      "category": [
-        "Genealogy"
-      ],
-      "imageLink": "http://books.google.com/books/content?id=He3tAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "price": 1300
-    },
+    
     {
       "id": "QlIgAQAAIAAJ",
       "title": "The Origin of the Family, Private Property, and the State",
@@ -309,7 +297,7 @@
       "category": [
         "Genealogy"
       ],
-      "imageLink": "http://books.google.com/books/content?id=QlIgAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "imageLink": "https://www.marxistbooks.com/cdn/shop/products/OriginImageforMBooks_grande.png?v=1613690979",
       "price": 1631
     },
     {
@@ -595,7 +583,7 @@
       "category": [
         "African Literature"
       ],
-      "imageLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:And9GcSUHijHbn-Tmm54zhaY5E3CTNC5Toko6JOhwmzDRBsPVD9S1w69Al9gFuFN&s=10",
+      "imageLink": "https://rofhiwabooks.com/cdn/shop/products/ibg.common.titledetail_27_grande.jpg?v=1611093755",
       "price": 9001
     },
     {
@@ -610,7 +598,7 @@
       "category": [
         "African Literature"
       ],
-      "imageLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:And9GcS4EZ_CiYlTKrzCfNaJgLjkpsasO3jTzAFK21fYFFEYgSY1xq1nFvl27lv5&s=10",
+      "imageLink": "https://m.media-amazon.com/images/I/51v-K3sy9XL._AC_UF1000,1000_QL80_.jpg",
       "price": 2611
     },
     {
