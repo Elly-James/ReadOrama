@@ -16,15 +16,22 @@ function App() {
     fetch("http://localhost:3000/books")
       .then((res) => res.json())
       .then((data) => {
-        console.log("Fetched books:", data); // Debug log
+        console.log("Fetched books:", data); 
         setBooks(data);
       })
       .catch((err) => console.error("Error fetching books:", err));
   }, []);
 
   const handleAddToCart = (book) => {
+    const price = parseFloat(book.price);
+    if (isNaN(price)) {
+      console.error(`Invalid price for book: ${book.title}`, book.price);
+      return;
+    }
+  
     if (!cart.find((item) => item.id === book.id)) {
-      const bookWithQuantity = { ...book, quantity: 1 };
+      console.log("Adding to cart:", book.title, "Price:", book.price);
+      const bookWithQuantity = { ...book, quantity: 1, price: price };
       setCart([...cart, bookWithQuantity]);
     }
   };

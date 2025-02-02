@@ -18,6 +18,54 @@
       "price": 4800
     },
     {
+      "id": "FT6j3YXYZhNYC",
+      "title": "Code: The Hidden Language of Computer Hardware and Software",
+      "authors": [
+        "Charles Petzold"
+      ],
+      "publisher": "Paperback",
+      "publishedDate": "2008-01-22",
+      "description": "What do flashlights, the British invasion, black cats, and seesaws have to do with computers? In CODE, they show us the ingenious ways we manipulate language and invent new means of communicating with each other. And through CODE, we see how this ingenuity and our very human compulsion to communicate have driven the technological innovations of the past two centuries. Using everyday objects and familiar language systems such as Braille and Morse code, author Charles Petzold weaves an illuminating narrative for anyone who’s ever wondered about the secret inner life of computers and other smart machines. It’s a cleverly illustrated and eminently comprehensible story—and along the way, you’ll discover you’ve gained a real context for understanding today’s world of PCs, digital media, and the Internet. No matter what your level of technical savvy, CODE will charm you—and perhaps even awaken the technophile within.",
+      "category": [
+        "Computer"
+      ],
+      "imageLink": "https://m.media-amazon.com/images/I/61Mjv10cfXL._UF1000,1000_QL80_.jpg",
+      "price": "Ksh. 3200"
+    },
+    {
+      "id": "bpfcDgPKLJBAJ",
+      "title": "Computer Vision: a Modern Approach",
+      "authors": [
+        "Forsyth",
+        "David A.",
+        "Jean Ponce."
+      ],
+      "publisher": "Packt Publishing Ltd",
+      "publishedDate": "2016-10-28",
+      "description": "Computer Vision: Algorithms and Applications explores the variety of techniques used to analyze and interpret images. It also describes challenging real-world applications where vision is being successfully used, both in specialized applications such as image search and autonomous navigation, as well as for fun, consumer-level tasks that students can apply to their own personal photos and videos. More than just a source of recipes, this exceptionally authoritative and comprehensive textbook/reference takes a scientific approach to the formulation of computer vision problems. These problems are then analyzed using the latest classical and deep learning models and solved using rigorous engineering principles.",
+      "category": [
+        "Computer"
+      ],
+      "imageLink": "https://images.booksense.com/images/824/723/9781641723824.jpg",
+      "price": "Ksh. 4800"
+    },
+    {
+      "id": "EfEOBYWCXYAAJ",
+      "title": "The Pragmatic Programmer: From Journeyman to Master",
+      "authors": [
+        "Dave James",
+        "Andy Hunt"
+      ],
+      "publisher": "Excel Publishing",
+      "publishedDate": "1917",
+      "description": "Straight from the programming trenches, The Pragmatic Programmer cuts through the increasing specialization and technicalities of modern software development to examine the core process--taking a requirement and producing working, maintainable code that delights its users. It covers topics ranging from personal responsibility and career development to architectural techniques for keeping your code flexible and easy to adapt and reuse. Read this book, and you'll learn how to Fight software rot; Avoid the trap of duplicating knowledge; Write flexible, dynamic, and adaptable code; Avoid programming by coincidence; Bullet-proof your code with contracts, assertions, and exceptions; Capture real requirements; Test ruthlessly and effectively; Delight your users; Build teams of pragmatic programmers; and Make your developments more precise with automation. Written as a series of self-contained sections and filled with entertaining anecdotes, thoughtful examples, and interesting analogies.",
+      "category": [
+        "Computer"
+      ],
+      "imageLink": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1401432508i/4099.jpg",
+      "price": "KSh. 3000"
+    },
+    {
       "id": "FT6j3YMDhNYC",
       "title": "Professional LINQ",
       "authors": [
@@ -284,7 +332,6 @@
       "imageLink": "https://m.media-amazon.com/images/I/81BO---nuKL.jpg",
       "price": 3800
     },
-    
     {
       "id": "QlIgAQAAIAAJ",
       "title": "The Origin of the Family, Private Property, and the State",
@@ -450,7 +497,6 @@
       "imageLink": "https://m.media-amazon.com/images/I/61V8g4GgqdL._SL1200_.jpg",
       "price": 9999
     },
-    
     {
       "id": "604",
       "title": "A People's History of the United States",

@@ -4,7 +4,7 @@ import BookForm from "./BookForm";
 
 const Shop = ({ onAddToCart, onAddToFavorites, cart, favorites }) => {
   const [books, setBooks] = useState([]);
-  const [currentIndices, setCurrentIndices] = useState({}); // Track current index for each category
+  const [currentIndices, setCurrentIndices] = useState({}); 
 
   useEffect(() => {
     fetch("http://localhost:3000/books")
@@ -18,12 +18,18 @@ const Shop = ({ onAddToCart, onAddToFavorites, cart, favorites }) => {
 
   const categories = [...new Set(books.flatMap((book) => book.category))];
 
-  // Function to handle scrolling left (previous books)
+
+
+
+  //This fuctions enables the user to scroll the books  
+  // backwards using the right chevrons buttons for each category
+
   const scrollLeft = (category) => {
     setCurrentIndices((prevIndices) => {
       const filteredBooks = books.filter((book) => book.category.includes(category));
       const currentIndex = prevIndices[category] || 0;
-      const newIndex = (currentIndex - 1 + filteredBooks.length) % filteredBooks.length; // Loop back to the end if at the start
+      const newIndex = (currentIndex - 1 + filteredBooks.length) % filteredBooks.length; 
+
       return {
         ...prevIndices,
         [category]: newIndex,
@@ -31,7 +37,12 @@ const Shop = ({ onAddToCart, onAddToFavorites, cart, favorites }) => {
     });
   };
 
-  // Function to handle scrolling right (next books)
+ 
+
+  //This fuctions enables the user to scroll the books  
+  // forward using the right chevrons buttons for each category
+
+
   const scrollRight = (category) => {
     setCurrentIndices((prevIndices) => {
       const filteredBooks = books.filter((book) => book.category.includes(category));
@@ -44,13 +55,17 @@ const Shop = ({ onAddToCart, onAddToFavorites, cart, favorites }) => {
     });
   };
 
-  // Function to get visible books for a category
+  
+
+  //This functions enables the given category   to be visible 
+
   const getVisibleBooks = (category) => {
     const filteredBooks = books.filter((book) => book.category.includes(category));
     const startIndex = currentIndices[category] || 0;
     const visibleBooks = [];
 
-    // Loop through the next 3 books (including wrapping around)
+   //Looping through the books to enable the user to scroll through using the chevron buttons
+   
     for (let i = 0; i < 3; i++) {
       const index = (startIndex + i) % filteredBooks.length;
       visibleBooks.push(filteredBooks[index]);

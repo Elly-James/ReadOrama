@@ -60,7 +60,7 @@ function BookForm({ onAddBook }) {
               onChange={handleChange}
               className="w-full border rounded p-2"
             >
-              <option value="Computers">Computers</option>
+              <option value="Computer">Computer</option>
               <option value="History">History</option>
               <option value="Asian">Asian</option>
               <option value="Genealogy">Genealogy</option>

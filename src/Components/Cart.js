@@ -11,13 +11,23 @@ function Cart({ cart, onRemoveFromCart, adjustQuantity }) {
     card_number: "",
     expiration_date: "",
     cvv: "",
-    phone_number: "", // For M-Pesa
+    phone_number: "", 
     email:"",
   });
 
   const calculateTotal = () => {
-    return cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
+    return cart.reduce((sum, item) => {
+      const price = parseFloat(item.price);
+      if (isNaN(price)) {
+        console.error(`Invalid price for item: ${item.title}`, item.price);
+        return sum;
+      }
+      console.log("Calculating total for item:", item.title, "Price:", item.price, "Quantity:", item.quantity);
+      return sum + price * item.quantity;
+    }, 0);
   };
+
+  
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;

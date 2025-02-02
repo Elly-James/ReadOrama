@@ -33,9 +33,13 @@ const Category = ({ book, onAddToCart, onAddToFavorites, isInCart, isInFavorites
           </button>
         )}
       </div>
-      <h3 className="mt-2 font-bold">{book.title || "Untitled"}</h3>
-      <p className="text-gray-600">{authors}</p>
-      <p className="text-blue-500 font-bold mt-2">Ksh. {book.price || "N/A"}</p>
+      <div>
+        <h3 className="mt-2 font-bold">{book.title || "Untitled"}</h3>
+        <p className="text-gray-600">{authors}</p>
+        <p className="text-blue-500 font-bold mt-2">Ksh. {book.price || "N/A"}</p>
+
+      </div>
+      
       <div className="mt-4 space-y-2">
         <button
           onClick={() => onAddToCart(book)}
