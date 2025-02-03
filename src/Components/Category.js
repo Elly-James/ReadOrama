@@ -4,6 +4,11 @@ const Category = ({ book, onAddToCart, onAddToFavorites, isInCart, isInFavorites
   const [showButton, setShowButton] = useState(false);
   const [showModal, setShowModal] = useState(false);
 
+  // The modal is responsible for displaying the book details on the page
+  // when the more info button is clicked
+
+ 
+
   const openBookDetails = () => {
     setShowModal(true);
   };

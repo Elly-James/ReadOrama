@@ -12,6 +12,8 @@ function BookForm({ onAddBook }) {
     price: 0,
   });
 
+
+  // Handles the submit button of the form using the POST method
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -24,7 +26,7 @@ function BookForm({ onAddBook }) {
     })
       .then((response) => response.json())
       .then((newBook) => {
-        onAddBook(newBook); // Update the parent state
+        onAddBook(newBook); 
         setFormData({
           title: "",
           authors: "",
@@ -37,6 +39,8 @@ function BookForm({ onAddBook }) {
         });
       });
   };
+
+  // Handles the input change event
 
   const handleChange = (e) => {
     setFormData({
@@ -51,7 +55,7 @@ function BookForm({ onAddBook }) {
         <h3 className="text-lg font-bold mb-4">Add a New Book</h3>
 
         <div className="grid gap-4">
-          {/* Select Category */}
+          
           <div>
             <label className="block mb-1">Category</label>
             <select
@@ -68,7 +72,7 @@ function BookForm({ onAddBook }) {
             </select>
           </div>
 
-          {/* Title */}
+          {/* The title of the book */}
           <div>
             <label className="block mb-1">Title</label>
             <input
@@ -81,8 +85,7 @@ function BookForm({ onAddBook }) {
               required
             />
           </div>
-
-          {/* Authors */}
+            {/* The authors of the book */}
           <div>
             <label className="block mb-1">Authors</label>
             <input
@@ -96,7 +99,7 @@ function BookForm({ onAddBook }) {
             />
           </div>
 
-          {/* Publisher */}
+            {/* The publisher of the book */}
           <div>
             <label className="block mb-1">Publisher</label>
             <input
@@ -110,7 +113,9 @@ function BookForm({ onAddBook }) {
             />
           </div>
 
-          {/* Published Date */}
+
+
+            {/* The Published Date */}
           <div>
             <label className="block mb-1">Published Date</label>
             <input
@@ -124,7 +129,7 @@ function BookForm({ onAddBook }) {
             />
           </div>
 
-          {/* Image Link */}
+            {/* The image Link of the book */}
           <div>
             <label className="block mb-1">Image Link</label>
             <input
@@ -138,7 +143,7 @@ function BookForm({ onAddBook }) {
             />
           </div>
 
-          {/* Price */}
+            {/* The price of the book */}
           <div>
             <label className="block mb-1">Price</label>
             <input
@@ -152,7 +157,7 @@ function BookForm({ onAddBook }) {
             />
           </div>
 
-          {/* Description */}
+          {/* The book Description */}
           <div>
             
             <textarea

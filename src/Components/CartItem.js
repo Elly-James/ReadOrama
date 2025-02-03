@@ -1,6 +1,8 @@
 import React from "react";
 
 function CartItem({ item, removeFromCart, adjustQuantity }) {
+
+  //Here we are displaying the cart items and the payment form
   return (
     <div className="cart">
         <div className="book-card">

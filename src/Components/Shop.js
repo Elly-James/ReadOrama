@@ -4,7 +4,9 @@ import BookForm from "./BookForm";
 
 const Shop = ({ onAddToCart, onAddToFavorites, cart, favorites }) => {
   const [books, setBooks] = useState([]);
-  const [currentIndices, setCurrentIndices] = useState({}); 
+  const [currentIndices, setCurrentIndices] = useState({});
+  
+  // Using the Get method to fetch data
 
   useEffect(() => {
     fetch("http://localhost:3000/books")
@@ -47,7 +49,7 @@ const Shop = ({ onAddToCart, onAddToFavorites, cart, favorites }) => {
     setCurrentIndices((prevIndices) => {
       const filteredBooks = books.filter((book) => book.category.includes(category));
       const currentIndex = prevIndices[category] || 0;
-      const newIndex = (currentIndex + 1) % filteredBooks.length; // Loop back to the start if at the end
+      const newIndex = (currentIndex + 1) % filteredBooks.length; 
       return {
         ...prevIndices,
         [category]: newIndex,
@@ -102,6 +104,9 @@ const Shop = ({ onAddToCart, onAddToFavorites, cart, favorites }) => {
           </div>
         </div>
       ))}
+
+        {/* Passing props to its children */}
+      
       <BookForm onAddBook={handleAddToShop} />
     </div>
   );

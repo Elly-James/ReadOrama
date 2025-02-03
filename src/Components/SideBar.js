@@ -8,6 +8,8 @@ import logo from "../logo.png";
 
 function SideBar() {
     const [expanded, setExpanded] = useState(true);
+
+    // The Icons used on the sidebar
     
     const sections = [
         { name: "Home", icon: faHouse, path: "/" },

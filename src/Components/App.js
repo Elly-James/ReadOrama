@@ -12,6 +12,9 @@ function App() {
   const [books, setBooks] = useState([]);
   const [favorites, setFavorites] = useState([]);
 
+
+  //using fetch to get the data from the file
+
   useEffect(() => {
     fetch("http://localhost:3000/books")
       .then((res) => res.json())
@@ -36,10 +39,17 @@ function App() {
     }
   };
 
+  //This function handles the remove from cart button
+
   const handleRemoveFromCart = (bookId) => {
     setCart(cart.filter((book) => book.id !== bookId));
   };
 
+
+   //This function handles the adjusting the quantity of the book in cart
+
+
+ 
   const handleAdjustQuantity = (bookId, change) => {
     setCart(
       cart.map((item) => {
@@ -52,12 +62,14 @@ function App() {
     );
   };
 
+   //This function handles the button add to favorites
+
   const handleAddToFavorites = (book) => {
     if (!favorites.find((item) => item.id === book.id)) {
       setFavorites([...favorites, book]);
     }
   };
-
+//This function handles the button remove from favorites
   const handleRemoveFromFavorites = (bookId) => {
     setFavorites(favorites.filter((book) => book.id !== bookId));
   };

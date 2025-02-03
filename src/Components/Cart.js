@@ -15,6 +15,8 @@ function Cart({ cart, onRemoveFromCart, adjustQuantity }) {
     email:"",
   });
 
+  // this function handles the total of the items in the cart page
+
   const calculateTotal = () => {
     return cart.reduce((sum, item) => {
       const price = parseFloat(item.price);
@@ -27,7 +29,7 @@ function Cart({ cart, onRemoveFromCart, adjustQuantity }) {
     }, 0);
   };
 
-  
+  // this function handles the change event in the form fields
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -37,11 +39,13 @@ function Cart({ cart, onRemoveFromCart, adjustQuantity }) {
     }));
   };
 
+  // handles the payment process
+
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Form submitted:", formData);
     setFormData("")
-    // Handle payment processing here based on payment_method
+    
   };
 
   return (

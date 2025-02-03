@@ -1,6 +1,8 @@
 import React from 'react';
 
 function Favorites({ favorites, onRemoveFromFavorites }) {
+
+    //this component displays the boooks available in the favorites list
     return (
         <div className="favorites">
               <h2>My Favorites</h2>
@@ -8,9 +10,9 @@ function Favorites({ favorites, onRemoveFromFavorites }) {
             {favorites.length === 0 ? (
                 <p>You have no favorite books yet.</p>
             ) : (
-                <div className="books-grid"> {/* Or whatever layout you want */}
+                <div className="books-grid"> 
                     {favorites.map((book) => (
-                        <div key={book.id} className="book-card"> {/* Style as needed */}
+                        <div key={book.id} className="book-card"> 
                             <img src={book.imageLink} alt={book.title} />
                             <h3>{book.title}</h3>
                             <button   

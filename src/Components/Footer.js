@@ -7,13 +7,16 @@ import {
   faInstagram 
 } from "@fortawesome/free-brands-svg-icons";
 
+// REsponsible for displaying the footer of the page
 
 const Footer = () => {
   return (
     <div className="footer">
       <div className="sb_footer section_padding">
         <div className="sb_footer-links">
-          {/* For Business Section */}
+
+
+          {/* The collaborators  */}
           <div className="sb_footer-links-div">
             <h4>Collaborators</h4>
             <a href="Heily"><p>Heily</p></a>
@@ -25,8 +28,8 @@ const Footer = () => {
 
           </div>
 
-          
-          {/* Resources Section */}
+            {/* The Resources  */}
+         
           <div className="sb_footer-links-div">
             <h4>Resources</h4>
             <a href="/resource"><p>Shipping</p></a>
@@ -35,7 +38,7 @@ const Footer = () => {
             <a href="/resource"><p>Order Status</p></a>
           </div>
 
-          {/* Partners Section */}
+           {/* The Partners  */}
           <div className="sb_footer-links-div">
             <h4>Partners</h4>
             <a href="https://www.somanami.co.ke/shop" target="_blank"><p>Somanami</p></a>
@@ -45,7 +48,7 @@ const Footer = () => {
             <a href="https://forum.mhut.org/"  target="_blank"><p>Library Genesis</p></a>
           </div>
 
-          {/* Company Section */}
+          
           <div className="sb_footer-links-div">
             <h4>Company</h4>
             <a href="/about"><p>About Us</p></a>
@@ -54,7 +57,7 @@ const Footer = () => {
             <a href="/contact"><p>Contact Us</p></a>
           </div>
 
-          {/* Social Media Section */}
+            {/* The Social Media Section  */}
           <div className="sb_footer-links-div">
             <h4>Follow Us On</h4>
             <div className="socialmedia">
