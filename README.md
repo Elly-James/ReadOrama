@@ -1,7 +1,7 @@
 
 # The ReadOrama Online Book Library
 
-Check out the live [link](https://code-challenge-week2-phase2-xt38.vercel.app/)
+Check out the live [link]()
 
 This project is a single page react app that utilizes the fundamentals of React.js. 
 
@@ -30,7 +30,11 @@ Increating the app, I used the **cra** method- ``code-challenge-week2-phase2``
   * Users can view book details,buy books, manage personal favorites, and add books of their preference, creating a personalized digital library experience. 
   * This project integrates modern web development technologies,including React, React Router, and RESTful APIs, to deliver a user-friendly single-page application that prioritizes interactivity and responsive design.
 
-   
+   ## Challenges
+   * Finding the perfect API for the books details
+   * Fixing bugs
+   * Unforseen challenges e.g power issues
+  
     
 
     
