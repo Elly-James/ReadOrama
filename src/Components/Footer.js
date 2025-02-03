@@ -7,7 +7,7 @@ import {
   faInstagram 
 } from "@fortawesome/free-brands-svg-icons";
 
-// REsponsible for displaying the footer of the page
+// Responsible for displaying the footer of the page
 
 const Footer = () => {
   return (
@@ -86,5 +86,7 @@ const Footer = () => {
     </div>
   );
 };
+
+
 
 export default Footer;
