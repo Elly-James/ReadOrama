@@ -9,7 +9,7 @@ function  Home () {
         <div className='home'>
             <h1 className='page'>Welcome to ReadOrama</h1>
             <p className='page'>Your One Stop Shop For All Your Books Solutions</p>
-            <img  className= "" src=''/>
+           
             <a href= "/shop">  <button>Shop Now</button></a>
           
             

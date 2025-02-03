@@ -73,6 +73,8 @@ const Footer = () => {
 
         <div className="sb_footer-below">
           <div className="sb_footer-copyright">
+
+               {/* The method gets the current year e.g 2025  */}
             <p>@{new Date().getFullYear()} ReadOrama. All rights reserved.</p>
           </div>
           <div className="sb_footer-below-links">

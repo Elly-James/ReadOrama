@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import Home from "./Home";
 import SideBar from "./SideBar";
+
 import Shop from "./Shop";
 import Cart from "./Cart";
 import Favorites from "./Favorites";
