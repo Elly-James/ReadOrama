@@ -2,7 +2,7 @@
 
 > Your one-stop shop for discovering, exploring, and purchasing books across every genre.
 
-Check out the live app → **[ReadOrama](https://readorama-app.onrender.com)**  
+Check out the live app → **[ReadOrama](https://readorama-app.onrender.com/)**  
 Backend API → **[ReadOrama API](https://readorama-api.onrender.com/books)**
 
 ---
