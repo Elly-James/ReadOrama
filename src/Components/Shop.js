@@ -9,7 +9,7 @@ const Shop = ({ onAddToCart, onAddToFavorites, cart, favorites }) => {
   // Using the Get method to fetch data
 
   useEffect(() => {
-    fetch("http://localhost:3000/books")
+    fetch(`${process.env.REACT_APP_API_URL}/books`)
       .then((response) => response.json())
       .then((data) => setBooks(data));
   }, []);

@@ -17,7 +17,7 @@ function BookForm({ onAddBook }) {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    fetch("http://localhost:3000/books", {
+    fetch(`${process.env.REACT_APP_API_URL}/books`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

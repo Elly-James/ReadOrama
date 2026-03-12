@@ -17,7 +17,7 @@ function App() {
   //using fetch to get the data from the file
 
   useEffect(() => {
-    fetch("http://localhost:3000/books")
+    fetch(`${process.env.REACT_APP_API_URL}/books`)
       .then((res) => res.json())
       .then((data) => {
         console.log("Fetched books:", data); 
